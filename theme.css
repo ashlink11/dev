@@ -34,7 +34,7 @@ h1 {
 .resume,
 .quote,
 .skills {
-  width: auto;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }

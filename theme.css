@@ -18,18 +18,18 @@ h1 {
   padding: 2rem;
   text-align: center;
 }
-a {
-  color: #cf6679;
-  text-decoration: underline;
-}
 .box {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 2rem;
   padding: 1rem;
-  background-color: #5f4b8b 1F;
+  background-color: #5f4b8b1F;
   color: #aca3c4;
+}
+a {
+  color: #cf6679;
+  text-decoration: underline;
 }
 .resume {
   width: min-content;

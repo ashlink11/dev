@@ -7,8 +7,8 @@
   src: url('public/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
 }
 body {
-  background-color: black;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   font-family: 'Niramit';
 }
 h1 {

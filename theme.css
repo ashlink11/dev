@@ -7,18 +7,17 @@
 	 font-family: 'Tenali Ramakrishna';
 	 src: url('public/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
 }
-body {
-  color: #aca3c4;
-}
 .body-content {
   background-color: #121212;
   font-family: 'Niramit';
+  color: #aca3c4;
 }
 h1 {
   font-family: 'Tenali Ramakrishna';
   font-size: 3rem;
   padding: 2rem;
   text-align: center;
+  color: #ffffff;
 }
 .box {
   background-position: center;
@@ -28,7 +27,7 @@ h1 {
   padding: 1rem;
   background-color: #5f4b8b1F;
 }
-a {
+.link {
   color: #cf6679;
   text-decoration: underline;
 }

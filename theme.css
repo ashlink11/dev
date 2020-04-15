@@ -6,7 +6,7 @@
   font-family: 'Tenali Ramakrishna';
   src: url('public/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
 }
-* {
+.body-content {
   background-color: #000000;
   color: #ffffff;
   font-family: 'Niramit';

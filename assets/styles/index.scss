@@ -1,1 +1,144 @@
 @import '~bootstrap/scss/bootstrap';
+
+// hex to be written in lower case letters
+// repetitive letter to be shortcutted to 3 letters
+$color-white: #fff;
+$half-opacity: rgba(0, 0, 0, .5);
+
+
+@font-face {
+  font-family: 'Niramit';
+  src: url('public/Niramit/Niramit-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tenali Ramakrishna';
+  src: url('public/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: black;
+  color: $color-white;
+  font-family: 'Niramit';
+}
+
+h1 {
+  font-family: 'Tenali Ramakrishna';
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.box {
+  // background-image: linear-gradient($half-opacity, $half-opacity), url('public/johannes-plenio-DKix6Un55mw-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem;
+  padding: 1rem;
+
+  // &.quote {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/panuson-norkaew-3ot8O0t5beE-unsplash.jpg');
+  // }
+  // &.about-me-1 {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.about-me-1 {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.about-me-2 {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.about-me-3 {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.about-me-4 {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.about-me-5 {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.strengths {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.languages{
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.frameworks {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.databases {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.philosophies {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+  // &.historical-figures {
+  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
+  // }
+}
+
+.photo img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.project img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sticky-footer {
+  flex-shrink: none;
+  font-family: 'Niramit';
+}
+
+// @media (min-width: 480px) {
+//   body {
+//     background-color: purple;
+//   }
+//
+//   h1 {
+//     font-size: 60px;
+//     padding: 80px 20px;
+//   }
+//
+// }
+//
+// @media (min-width: 768px) {
+//   body {
+//     background-color: blue;
+//   }
+//
+//   h1 {
+//     font-size: 90px;
+//     padding: 120px 80px 120px 40px;
+//   }
+// }
+//
+// @media (min-width: 992px) {
+//   body {
+//     background-color: green;
+//   }
+//
+//   h1 {
+//     padding: 150px 80px 150px 30px;
+//   }
+// }
+//
+// @media (min-width: 1200px) {
+//   body {
+//     background-color: orange;
+//   }
+//
+//   h1 {
+//     padding: 180px 80px 180px 40px;
+//   }
+//
+//   .box {
+//   }
+// }

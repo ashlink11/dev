@@ -52,7 +52,7 @@ I'm a mid-level engineer. I'm lucky to have logged many thousands of hours with 
 #### Favorite relevant historal figures:
 - J.C.R. Licklider ("Man-Computer Symbiosis")
 - Ada Lovelace
-- Douglas Englebart
+- Douglas Engelbart
 - Alan Turing
 - Nikola Tesla
 

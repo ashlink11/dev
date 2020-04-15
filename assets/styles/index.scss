@@ -2,9 +2,17 @@
 
 // hex to be written in lower case letters
 // repetitive letter to be shortcutted to 3 letters
-$color-white: #fff;
-$half-opacity: rgba(0, 0, 0, .5);
-
+$white: #fff;
+$white-half-opacity: #FFFFFF80;
+$surface-color: #121212;
+$primary-ultra-violet: #5F4B8B;
+$primary-ultra-violet-twelve-percent: #5F4B8B1F;
+$primary-ultra-violet-variant-light: #ACA3C4;
+$primary-ultra-violet-variant-dark: #382D5D;
+$secondary-sage: #778B4B;
+$secondary-sage-variant-medium: #AFC367;
+$secondary-sage-variant-light: #D6E1B1;
+$dark-error: #CF6679;
 
 @font-face {
   font-family: 'Niramit';
@@ -16,9 +24,9 @@ $half-opacity: rgba(0, 0, 0, .5);
   src: url('public/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
 }
 
-body {
-  background-color: black;
-  color: $color-white;
+.body-content {
+  background-color: $surface-color;
+  color: $white;
   font-family: 'Niramit';
 }
 
@@ -29,6 +37,11 @@ h1 {
   text-align: center;
 }
 
+a {
+  color: $dark-error;
+  text-decoration: underline;
+}
+
 .box {
   // background-image: linear-gradient($half-opacity, $half-opacity), url('public/johannes-plenio-DKix6Un55mw-unsplash.jpg');
   background-position: center;
@@ -36,6 +49,8 @@ h1 {
   background-size: cover;
   margin: 2rem;
   padding: 1rem;
+  background-color: $primary-ultra-violet-twelve-percent;
+  color: $primary-ultra-violet-variant-light;
 
   // &.quote {
   //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/panuson-norkaew-3ot8O0t5beE-unsplash.jpg');
@@ -78,6 +93,12 @@ h1 {
   // }
 }
 
+.resume {
+  width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .photo img {
   width: 60%;
   margin-left: auto;
@@ -94,7 +115,6 @@ h1 {
 
 .sticky-footer {
   flex-shrink: none;
-  font-family: 'Niramit';
 }
 
 // @media (min-width: 480px) {

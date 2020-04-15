@@ -31,7 +31,9 @@ h1 {
   color: #cf6679;
   text-decoration: underline;
 }
-.resume {
+.resume,
+.quote,
+.skills {
   width: min-content;
   margin-left: auto;
   margin-right: auto;

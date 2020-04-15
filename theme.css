@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Niramit';
+  src: url('public/Niramit/Niramit-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Tenali Ramakrishna';
+  src: url('public/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
+}
+body {
+  background-color: black;
+  color: #fff;
+  font-family: 'Niramit';
+}
+h1 {
+  font-family: 'Tenali Ramakrishna';
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+.box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem;
+  padding: 1rem;
+}
+.photo img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.project img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.sticky-footer {
+  flex-shrink: none;
+  font-family: 'Niramit';
+}

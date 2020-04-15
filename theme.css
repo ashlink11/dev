@@ -1,14 +1,6 @@
-@font-face {
-  font-family: 'Niramit';
-  src: url('public/Niramit/Niramit-ExtraLight.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Tenali Ramakrishna';
-  src: url('public/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
-}
 .body-content {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #121212;
+  color: #fff;
   font-family: 'Niramit';
 }
 h1 {
@@ -17,12 +9,23 @@ h1 {
   padding: 2rem;
   text-align: center;
 }
+a {
+  color: #cf6679;
+  text-decoration: underline;
+}
 .box {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 2rem;
   padding: 1rem;
+  background-color: #5f4b8b 1F;
+  color: #aca3c4;
+}
+.resume {
+  width: min-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 .photo img {
   width: 60%;
@@ -32,6 +35,9 @@ h1 {
 }
 .project img {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .sticky-footer {
   flex-shrink: none;

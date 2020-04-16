@@ -55,7 +55,7 @@ $dark-error: #CF6679;
 
 .name.box {
   text-transform: uppercase;
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 1;
   padding: 1rem 0 2rem 0;
   background-color: $surface-color;
@@ -68,6 +68,7 @@ $dark-error: #CF6679;
   background-color: $surface-color;
   color: $secondary-sage;
   padding: 0;
+  font-size: 1rem;
 
   .author {
     text-align: right;
@@ -96,6 +97,10 @@ $dark-error: #CF6679;
   display: block;
 }
 
-.sticky-footer {
+.footer {
   flex-shrink: none;
+  background-color: $primary-ultra-violet-twelve-percent;
+  text-align: right;
+  font-size: .8rem;
+  color: $primary-ultra-violet-variant-light;
 }

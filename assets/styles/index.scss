@@ -36,8 +36,8 @@ $dark-error: #CF6679;
   src: url('public/Stylish/Stylish-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'VT323';
-  src: url('public/VT323/VT323-Regular.ttf') format('truetype');
+  font-family: 'Courier Prime';
+  src: url('public/Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
 }
 
 .body-content {
@@ -69,7 +69,12 @@ h1 {
 }
 
 .quote {
-  font-family: 'VT323';
+  font-family: 'Courier Prime';
+
+  .author {
+    text-align: right;
+    font-style: italic;
+  }
 }
 
 .box {

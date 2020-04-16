@@ -12,6 +12,7 @@ $secondary-sage-variant-medium: #afc367;
 $secondary-sage-variant-medium-twelve: #afc3671f;
 $secondary-sage-variant-light: #d6e1b1;
 $dark-error: #cf6679;
+$material-io-purple: #6200ee;
 
 @font-face {
   font-family: 'Raleway Extra Bold';
@@ -34,11 +35,6 @@ $dark-error: #cf6679;
   background-color: $surface-color;
   color: $white;
   font-family: 'Raleway';
-}
-
-.main-content {
-  // margin: 1rem;
-  // padding: 1rem;
 }
 
 .name {
@@ -65,8 +61,33 @@ $dark-error: #cf6679;
   }
 }
 
+.btn-primary {
+  background-color: $material-io-purple;
+  border-color: $white;
+  border-radius: 1px;
+  color: $white;
+  border-width: 1px;
+
+  &:hover {
+    background-color: $white;
+    border-color: $material-io-purple;
+    color: $material-io-purple;
+  }
+}
+
 .card {
-  background-color: $primary-ultra-violet;
+  border-radius: 0;
+  background-color: $primary-ultra-violet-twelve-percent;
+  color: $white;
+  margin: 1rem;
+
+  .card-header {
+    border-color: $secondary-sage;
+  }
+
+  .card-link {
+
+  }
 }
 
 .link {

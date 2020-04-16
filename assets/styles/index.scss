@@ -11,6 +11,7 @@ $primary-ultra-violet-variant-light: #ACA3C4;
 $primary-ultra-violet-variant-dark: #382D5D;
 $secondary-sage: #778B4B;
 $secondary-sage-variant-medium: #AFC367;
+$secondary-sage-variant-medium-twelve: #AFC3671F;
 $secondary-sage-variant-light: #D6E1B1;
 $dark-error: #CF6679;
 
@@ -43,13 +44,14 @@ $dark-error: #CF6679;
 .body-content {
   background-color: $surface-color;
   color: $white;
-  font-family: 'Stylish';
+  font-family: 'Niramit';
   display: flex;
   flex-direction: column;
 }
 
 h1 {
-  font-family: 'Nixie One';
+  font-family: 'Niramit';
+  text-transform: uppercase;
   font-size: 2rem;
   padding: 2rem;
   text-align: center;
@@ -68,8 +70,21 @@ h1 {
   width: fit-content;
 }
 
-.quote {
+.box {
+  // background-image: linear-gradient($half-opacity, $half-opacity), url('public/johannes-plenio-DKix6Un55mw-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: $primary-ultra-violet-twelve-percent;
+}
+
+.quote.box {
   font-family: 'Courier Prime';
+  background-color: $surface-color;
+  color: $secondary-sage;
+  padding: 0;
 
   .author {
     text-align: right;
@@ -77,19 +92,13 @@ h1 {
   }
 }
 
-.box {
-  // background-image: linear-gradient($half-opacity, $half-opacity), url('public/johannes-plenio-DKix6Un55mw-unsplash.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 2rem;
-  padding: 1rem;
-  background-color: $primary-ultra-violet-twelve-percent;
-  color: $primary-ultra-violet-variant-light;
-}
-
-.photo img {
-  width: 99%;
+.photo.box {
+  background-color: $surface-color;
+  padding: 0;
+  img {
+    width: 100%;
+    filter: brightness(80%);
+  }
 }
 
 .project img {

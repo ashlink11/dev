@@ -42,8 +42,7 @@ $dark-error: #cf6679;
 }
 
 .box {
-  background-color: $primary-ultra-violet-twelve-percent;
-  width: fit-content;
+  background-color: $primary-ultra-violet;
 
   &.name {
     background-color: $surface-color;
@@ -77,6 +76,6 @@ $dark-error: #cf6679;
 .footer {
   background-color: $primary-ultra-violet-twelve-percent;
   color: $white-half-opacity;
-  font-size: .9rem;
+  font-size: .8rem;
   text-align: center;
 }

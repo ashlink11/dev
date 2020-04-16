@@ -16,28 +16,12 @@ $secondary-sage-variant-light: #D6E1B1;
 $dark-error: #CF6679;
 
 @font-face {
-  font-family: 'Niramit';
-  src: url('public/Niramit/Niramit-ExtraLight.ttf') format('truetype');
-}
-@font-face {
   font-family: 'Raleway Extra Bold';
   src: url('public/Raleway/Raleway-ExtraBold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Raleway';
   src: url('public/Raleway/Raleway-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Fredericka the Great';
-  src: url('public/Fredericka_the_Great/FrederickatheGreat-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Nixie One';
-  src: url('public/Nixie_One/NixieOne-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Stylish';
-  src: url('public/Stylish/Stylish-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Courier Prime';
@@ -57,14 +41,6 @@ $dark-error: #CF6679;
   text-decoration: underline;
 }
 
-.resume,
-.quote,
-.skills {
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
-}
-
 .box {
   // background-image: linear-gradient($half-opacity, $half-opacity), url('public/johannes-plenio-DKix6Un55mw-unsplash.jpg');
   background-position: center;
@@ -73,6 +49,7 @@ $dark-error: #CF6679;
   margin: 1rem;
   padding: 1rem;
   background-color: $primary-ultra-violet-twelve-percent;
+  width: fit-content;
 }
 
 .name.box {

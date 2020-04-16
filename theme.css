@@ -1,0 +1,78 @@
+@import '~bootstrap/scss/bootstrap';
+ @font-face {
+	 font-family: 'Raleway Extra Bold';
+	 src: url('public/Raleway/Raleway-ExtraBold.ttf') format('truetype');
+}
+ @font-face {
+	 font-family: 'Raleway';
+	 src: url('public/Raleway/Raleway-Regular.ttf') format('truetype');
+}
+ @font-face {
+	 font-family: 'Montserrat';
+	 src: url('public/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+ @font-face {
+	 font-family: 'Courier Prime';
+	 src: url('public/Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
+}
+ .body-content {
+	 background-color: #121212;
+	 color: #fff;
+	 font-family: 'Raleway';
+}
+ .name {
+	 background-color: #121212;
+	 font-family: 'Raleway Extra Bold';
+	 text-transform: uppercase;
+}
+ .quote {
+	 background-color: #121212;
+	 color: #778b4b;
+	 font-family: 'Courier Prime';
+	 width: fit-content;
+}
+ .quote .author {
+	 font-style: italic;
+	 text-align: right;
+}
+ .photo img {
+	 filter: brightness(80%);
+}
+ .btn-primary {
+	 background-color: #57693c;
+	 border-color: #fff;
+	 border-radius: 1px;
+	 color: #fff;
+	 border-width: 1px;
+}
+ .btn-primary:hover {
+	 background-color: #fff;
+	 border-color: #57693c;
+	 color: #57693c;
+}
+ .card {
+	 border-radius: 0;
+	 background-color: #5f4b8b29;
+	 color: #fff;
+	 padding: 1rem;
+}
+ .card .card-header {
+	 border-color: #778b4b;
+}
+ .card .card-img-top {
+	 border-radius: 0;
+}
+ .card .card-link {
+	 margin: 0.5rem 0;
+	 justify-content: flex-end;
+}
+ .link {
+	 color: #cf6679;
+	 text-decoration: underline;
+}
+ .footer {
+	 background-color: #5f4b8b29;
+	 color: #fff80;
+	 font-size: 0.8rem;
+	 text-align: center;
+}

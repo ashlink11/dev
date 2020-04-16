@@ -20,26 +20,56 @@ $dark-error: #CF6679;
 }
 
 @font-face {
-  font-family: 'Tenali Ramakrishna';
-  src: url('public/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
+  font-family: 'Julius Sans One';
+  src: url('public/Julius_Sans_One/JuliusSansOne-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Fredericka the Great';
+  src: url('public/Fredericka_the_Great/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nixie One';
+  src: url('public/Nixie_One/NixieOne-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Stylish';
+  src: url('public/Stylish/Stylish-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'VT323';
+  src: url('public/VT323/VT323-Regular.ttf') format('truetype');
 }
 
 .body-content {
   background-color: $surface-color;
   color: $white;
-  font-family: 'Niramit';
+  font-family: 'Stylish';
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-  font-family: 'Tenali Ramakrishna';
-  font-size: 3rem;
+  font-family: 'Nixie One';
+  font-size: 2rem;
   padding: 2rem;
   text-align: center;
 }
 
-a {
+.link {
   color: $dark-error;
   text-decoration: underline;
+}
+
+.resume,
+.quote,
+.skills {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.quote {
+  font-family: 'VT323';
 }
 
 .box {
@@ -51,59 +81,10 @@ a {
   padding: 1rem;
   background-color: $primary-ultra-violet-twelve-percent;
   color: $primary-ultra-violet-variant-light;
-
-  // &.quote {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/panuson-norkaew-3ot8O0t5beE-unsplash.jpg');
-  // }
-  // &.about-me-1 {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.about-me-1 {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.about-me-2 {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.about-me-3 {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.about-me-4 {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.about-me-5 {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.strengths {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.languages{
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.frameworks {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.databases {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.philosophies {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-  // &.historical-figures {
-  //   background-image: linear-gradient($half-opacity, $half-opacity), url('public/kazuend-LVdiXyu2eTc-unsplash.jpg');
-  // }
-}
-
-.resume {
-  width: min-content;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .photo img {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  width: 99%;
 }
 
 .project img {

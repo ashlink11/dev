@@ -1,17 +1,17 @@
 @import '~bootstrap/scss/bootstrap';
 
 $white: #fff;
-$white-half-opacity: #FFFFFF80;
+$white-half-opacity: #ffffff80;
 $surface-color: #121212;
-$primary-ultra-violet: #5F4B8B;
-$primary-ultra-violet-twelve-percent: #5F4B8B1F;
-$primary-ultra-violet-variant-light: #ACA3C4;
-$primary-ultra-violet-variant-dark: #382D5D;
-$secondary-sage: #778B4B;
-$secondary-sage-variant-medium: #AFC367;
-$secondary-sage-variant-medium-twelve: #AFC3671F;
-$secondary-sage-variant-light: #D6E1B1;
-$dark-error: #CF6679;
+$primary-ultra-violet: #5f4b8b;
+$primary-ultra-violet-twelve-percent: #5f4b8b1f;
+$primary-ultra-violet-variant-light: #aca3c4;
+$primary-ultra-violet-variant-dark: #382d5d;
+$secondary-sage: #778b4b;
+$secondary-sage-variant-medium: #afc367;
+$secondary-sage-variant-medium-twelve: #afc3671f;
+$secondary-sage-variant-light: #d6e1b1;
+$dark-error: #cf6679;
 
 @font-face {
   font-family: 'Raleway Extra Bold';
@@ -43,42 +43,44 @@ $dark-error: #CF6679;
   padding: 0;
 }
 
+
 .box {
+  background-color: $primary-ultra-violet-twelve-percent;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1rem;
   padding: 1rem;
-  background-color: $primary-ultra-violet-twelve-percent;
   width: fit-content;
 }
 
 .name.box {
-  text-transform: uppercase;
-  font-size: 2rem;
-  line-height: 1;
-  padding: 1rem 0 2rem 0;
   background-color: $surface-color;
   font-family: 'Raleway Extra Bold';
+  font-size: 2rem;
   justify-content: flex-end;
+  line-height: 1;
+  padding: 1rem 0 2rem;
+  text-transform: uppercase;
 }
 
 .quote.box {
-  font-family: 'Courier Prime';
   background-color: $surface-color;
   color: $secondary-sage;
-  padding: 0;
+  font-family: 'Courier Prime';
   font-size: 1rem;
+  padding: 0;
 
   .author {
-    text-align: right;
     font-style: italic;
+    text-align: right;
   }
 }
 
 .photo.box {
   background-color: $surface-color;
   padding: 0;
+
   img {
     filter: brightness(80%);
     width: 100%;
@@ -91,16 +93,16 @@ $dark-error: #CF6679;
 }
 
 .project img {
-  width: 100%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  width: 100%;
 }
 
 .footer {
-  flex-shrink: none;
   background-color: $primary-ultra-violet-twelve-percent;
-  text-align: right;
-  font-size: .8rem;
   color: $primary-ultra-violet-variant-light;
+  flex-shrink: none;
+  font-size: .8rem;
+  text-align: right;
 }

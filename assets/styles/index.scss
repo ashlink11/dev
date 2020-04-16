@@ -4,12 +4,13 @@ $white: #fff;
 $white-half-opacity: #ffffff80;
 $surface-color: #121212;
 $primary-ultra-violet: #5f4b8b;
-$primary-ultra-violet-twelve-percent: #5f4b8b1f;
+$primary-ultra-violet-sixteen-percent: #5f4b8b29;
+$primary-ultra-violet-thirty-percent: #5f4b8b4D;
 $primary-ultra-violet-variant-light: #aca3c4;
 $primary-ultra-violet-variant-dark: #382d5d;
 $secondary-sage: #778b4b;
 $secondary-sage-variant-medium: #afc367;
-$secondary-sage-variant-medium-twelve: #afc3671f;
+$secondary-sage-variant-medium-sixteen: #afc36729;
 $secondary-sage-variant-light: #d6e1b1;
 $dark-error: #cf6679;
 $material-io-purple: #6200ee;
@@ -62,7 +63,7 @@ $material-io-purple: #6200ee;
 }
 
 .btn-primary {
-  background-color: $material-io-purple;
+  background-color: $secondary-sage;
   border-color: $white;
   border-radius: 1px;
   color: $white;
@@ -70,22 +71,23 @@ $material-io-purple: #6200ee;
 
   &:hover {
     background-color: $white;
-    border-color: $material-io-purple;
-    color: $material-io-purple;
+    border-color: $secondary-sage;
+    color: $secondary-sage;
   }
 }
 
 .card {
   border-radius: 0;
-  background-color: $primary-ultra-violet-twelve-percent;
+  background-color: $primary-ultra-violet-sixteen-percent;
   color: $white;
+  padding: 1rem;
 
   .card-header {
     border-color: $secondary-sage;
   }
 
-  .card-link {
-
+  .card-img-top {
+    border-radius: 0;
   }
 }
 
@@ -95,7 +97,7 @@ $material-io-purple: #6200ee;
 }
 
 .footer {
-  background-color: $primary-ultra-violet-twelve-percent;
+  background-color: $primary-ultra-violet-sixteen-percent;
   color: $white-half-opacity;
   font-size: .8rem;
   text-align: center;

@@ -90,6 +90,11 @@ $material-io-purple: #6200ee;
   .card-img-top {
     border-radius: 0;
   }
+
+  .card-link {
+    margin: .5rem 0;
+    justify-content: flex-end;
+  }
 }
 
 .link {

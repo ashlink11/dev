@@ -34,15 +34,14 @@ $dark-error: #cf6679;
   background-color: $surface-color;
   color: $white;
   font-family: 'Raleway';
-}
 
-.main-content {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
 }
-
 
 .box {
   background-color: $primary-ultra-violet-twelve-percent;
@@ -52,51 +51,52 @@ $dark-error: #cf6679;
   margin: 1rem;
   padding: 1rem;
   width: fit-content;
-}
 
-.name.box {
-  background-color: $surface-color;
-  font-family: 'Raleway Extra Bold';
-  font-size: 2rem;
-  justify-content: flex-end;
-  line-height: 1;
-  padding: 1rem 0 2rem;
-  text-transform: uppercase;
-}
-
-.quote.box {
-  background-color: $surface-color;
-  color: $secondary-sage;
-  font-family: 'Courier Prime';
-  font-size: 1rem;
-  padding: 0;
-
-  .author {
-    font-style: italic;
-    text-align: right;
+  &.name {
+    background-color: $surface-color;
+    font-family: 'Raleway Extra Bold';
+    font-size: 2rem;
+    justify-content: flex-end;
+    line-height: 1;
+    padding: 1rem 0 2rem;
+    text-transform: uppercase;
   }
-}
 
-.photo.box {
-  background-color: $surface-color;
-  padding: 0;
+  &.quote {
+    background-color: $surface-color;
+    color: $secondary-sage;
+    font-family: 'Courier Prime';
+    font-size: 1rem;
+    padding: 0;
 
-  img {
-    filter: brightness(80%);
-    width: 100%;
+    .author {
+      font-style: italic;
+      text-align: right;
+    }
+  }
+
+  &.photo {
+    padding: 0;
+
+    img {
+      filter: brightness(80%);
+      width: 100%;
+    }
+  }
+
+  &.project {
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
   }
 }
 
 .link {
   color: $dark-error;
   text-decoration: underline;
-}
-
-.project img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
 }
 
 .footer {

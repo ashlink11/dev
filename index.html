@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ash Grevelink's Software Portfolio</title>
+    <title>Ash Grevelink's Portfolio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="software engineer programmer developer react javascript java ruby rails express node html css" name="keywords">
     <meta content="Ash Grevelink is a full-stack software engineer passionate about JavaScript as well as the evolution of computers, the Internet, and the web. She has spent 5000+ hours programming and studying computer science. Her top skills include React, Node.js, Express, Ruby on Rails, Java, HTML and CSS. She has a strong background in SEO and Structured Data as well as working remotely." name="description">
@@ -17,10 +17,10 @@
     <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
   </head>
   <body class="body-content">
-    <main class="main-content container">
-      <header class="header">
-        <h1 class="name box">Ash Grevelink</h1>
-        <div class="quote box">
+    <main class="main-content container-xl">
+      <header class="header row">
+        <h1 class="name col-md-4 p-3">Ash Grevelink</h1>
+        <div class="quote col-md-4 p-3 col-sm-6">
           <div class="body">
             <p>> Write it, cut it, paste it, save it</p>
             <p>> Load it, check it, quick, rewrite it</p>
@@ -29,49 +29,63 @@
             <p>-Daft Punk, "Technologic"</p>
           </div>
         </div>
-        <div class="photo box">
-          <img src="public/ash_grevelink_boston__harbor_january_2020.jpg" alt="Ash Grevelink standing at the Boston Harbor by a boat named Freedom in January 2020">
-        </div>
-        <div class="resume box">
-          <a class="link" href="public/resume-2020-april-ash-grevelink.pdf" target="_blank">Resume</a>
+        <div class="photo col-md-4 p-3 col-sm-6">
+          <img class="img-fluid" src="public/ash_grevelink_boston__harbor_january_2020.jpg" alt="Ash Grevelink standing at the Boston Harbor by a boat named Freedom in January 2020">
         </div>
       </header>
       <section class="projects">
-        <h1 class="name box">PROJECTS</h1>
-        <div class="project box">
-          <h4>The Simple Fundamentals of Programming</h4>
-          <p>Flashcard app with simple definitions of programming terms.</p>
-          <p>JavaScipt, React, Ruby on Rails, PostgreSQL</p>
-          <img src="public/simple_fundamentals.png" alt="The Simple Fundamentals of Programming Screenshot">
-          <a class="link" href="https://hashbangash.github.io/simple-fundamentals-client/">See live app</a>
-          <a class="link" href="https://github.com/hashbangash/simple-fundamentals-client">Code repository</a>
+        <h1 class="name mt-4 mb-3">PROJECTS</h1>
+        <div class="row top-projects justify-content-center">
+          <div class="project col-md-5 m-4 card">
+            <img class="card-img-top" src="public/simple_fundamentals.png" alt="The Simple Fundamentals of Programming Screenshot">
+            <h4 class="card-header">The Simple Fundamentals of Programming</h4>
+            <div class="card-body">
+              <p class="card-text">Flashcard app with simple definitions of programming terms.</p>
+              <p class="card-text">JavaScript, React, Ruby on Rails, PostgreSQL</p>
+              <a class="card-link btn btn-primary" href="https://hashbangash.github.io/simple-fundamentals-client/">Live app</a>
+
+              <a class="card-link btn btn-primary" href="https://github.com/hashbangash/simple-fundamentals-client">Code repo</a>
+            </div>
+          </div>
+          <div class="project col-md-5 m-4 card">
+            <img class="card-img-top" src="public/pollaris.png" alt="Pollaris Surveys Screenshot">
+            <h4 class="card-header">Pollaris Surveys</h4>
+            <div class="card-body">
+              <p class="card-text">Authenticated users can create, take and manage surveys.</p>
+              <p class="card-text">JavaScript, Bootstrap, Handlebars, Node.js, Express, MongoDB</p>
+              <a class="card-link btn btn-primary" href="https://wat-the-duck.github.io/pollaris-surveys-client/">Live app</a>
+
+              <a class="card-link btn btn-primary" href="https://github.com/wat-the-duck/pollaris-surveys-client">Code repo</a>
+            </div>
+          </div>
         </div>
-        <div class="project box">
-          <h4>Pollaris Surveys</h4>
-          <p>Authenticated users can create, take and manage surveys.</p>
-          <p>JavaScript, Bootstrap, Handlebars, Node.js, Express, MongoDB</p>
-          <img src="public/pollaris.png" alt="Pollaris Surveys Screenshot">
-          <a class="link" href="https://wat-the-duck.github.io/pollaris-surveys-client/">See live app</a>
-          <a class="link" href="https://github.com/wat-the-duck/pollaris-surveys-client">Code repository</a>
-        </div>
-        <div class="project box">
-          <h4>The Forgiveness Project(ion)</h4>
-          <p>Make a post about something you want to forgive.</p>
-          <p>JavaScript, Bootstrap, Handlebars, Ruby on Rails, PostgreSQL</p>
-          <img src="public/forgiveness.png" alt="The Forgiveness Project(ion) Screenshot">
-          <a class="link" href="https://hashbangash.github.io/forgiveness-client/">See live app</a>
-          <a class="link" href="https://github.com/hashbangash/forgiveness-client">Code repository</a>
-        </div>
-        <div class="project box">
-          <h4>Retro Tic Tac Toe Client</h4>
-          <p>My first SPA (single-page app); connecting to a 3rd-party API.</p>
-          <p>JavaScript, jQuery, AJAX, HTML, CSS, Bootstrap, npm, grunt</p>
-          <img src="public/tictactoe.png" alt="Tic Tac Toe Client Screenshot">
-          <a class="link" href="https://github.com/hashbangash/tic-tac-toe-client">See live app</a>
-          <a class="link" href="https://hashbangash.github.io/tic-tac-toe-client/">Code repository</a>
+        <div class="row bottom-projects justify-content-center">
+          <div class="project col-md-5 m-4 card">
+            <img class="card-img-top" src="public/forgiveness.png" alt="The Forgiveness Project(ion) Screenshot">
+            <h4 class="card-header">The Forgiveness Project(ion)</h4>
+            <div class="card-body">
+              <p class="card-text">Make a post about something you want to forgive.</p>
+              <p class="card-text">JavaScript, Bootstrap, Handlebars, Ruby on Rails, PostgreSQL</p>
+              <a class="card-link btn btn-primary" href="https://hashbangash.github.io/forgiveness-client/">Live app</a>
+
+              <a class="card-link btn btn-primary" href="https://github.com/hashbangash/forgiveness-client">Code repo</a>
+            </div>
+          </div>
+          <div class="project col-md-5 m-4 card">
+            <img class="card-img-top" src="public/tictactoe.png" alt="Tic Tac Toe Client Screenshot">
+            <h4 class="card-header">Retro Tic Tac Toe Client</h4>
+            <div class="card-body">
+              <p class="card-text">My first SPA (single-page app); connecting to a 3rd-party API.</p>
+              <p class="card-text">JavaScript, jQuery, AJAX, HTML, CSS, Bootstrap, npm, grunt</p>
+              <a class="card-link btn btn-primary" href="https://github.com/hashbangash/tic-tac-toe-client">Live app</a>
+
+              <a class="card-link btn btn-primary" href="https://hashbangash.github.io/tic-tac-toe-client/">Code repo</a>
+            </div>
+          </div>
         </div>
       </section>
       <section class="about-me">
+          <h1 class="name mt-4 mb-3">the rest is under construction - Apr 16, 2020 - check back tomorrow</h1>
           <p class="about-me-1 box">Since I was very young, I was always concerned with meaning, truth, and consciousness.</p>
 
           <p class="about-me-2 box">When I was 18 years old, I learned about Moore’s Law and the technological singularity calculated to be coming in the year 2045. The philosophical concept of exponentiality fascinated me, as well as the idea of making the world a better place with the Internet.</p>
@@ -82,8 +96,8 @@
 
           <p class="about-me-5 box">I feel empowered to be able to create nearly anything I can dream up. I’m grateful to all my teachers and friends along the way.</p>
         </section>
-      <section class="skills">
-        <div class="strengths box">
+      <section class="skills row">
+        <div class="strengths card">
           <h4>Strengths:</h4>
           <ul>
             <li>Debugging</li>
@@ -94,7 +108,7 @@
             <li>Love for teaching others</li>
           </ul>
         </div>
-        <div class="languages box">
+        <div class="languages card">
           <h4>Languages:</h4>
           <ul>
             <li>JavaScript</li>
@@ -103,17 +117,17 @@
             <li>C</li>
           </ul>
         </div>
-        <div class="frameworks box">
+        <div class="frameworks card">
           <h4>Frameworks:</h4>
           <ul>
-            <li>React.js (with Hooks)</li>
-            <li>Node.js/Express.js</li>
+            <li>React (with Hooks)</li>
+            <li>Node.js/Express/li>
             <li>Rails</li>
             <li>Spring</li>
             <li>Angular</li>
           </ul>
         </div>
-        <div class="databases box">
+        <div class="databases card">
           <h4>Databases:</h4>
           <ul>
             <li>PostgreSQL</li>
@@ -121,7 +135,7 @@
             <li>MySQL</li>
           </ul>
         </div>
-        <div class="philosophies box">
+        <div class="philosophies card">
           <h4>Philosophies:</h4>
           <ul>
             <li>Holacracy & leader-leader model</li>
@@ -130,7 +144,7 @@
             <li>SOLID (based off Uncle Bob Martin's OOP design principles)</li>
           </ul>
         </div>
-        <div class="historical-figures box">
+        <div class="historical-figures card">
           <h4>My career inspirations:</h4>
           <ul>
             <li>J.C.R. Licklider ("Man-Computer Symbiosis")</li>
@@ -142,7 +156,7 @@
           </ul>
         </div>
       </section>
-      <section class="contact box">
+      <section class="contact card">
         <h4>Information:</h4>
         <ul>
           <li>Greater Boston Area</li>
@@ -153,7 +167,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer container-fluid py-2">
+    <footer class="footer container-fluid">
       Homegrown by Ash Grevelink - Copyright 2020
     </footer>
   </body>

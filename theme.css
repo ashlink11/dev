@@ -20,63 +20,59 @@
 	 color: #fff;
 	 font-family: 'Raleway';
 }
- .main-content {
-	 display: flex;
-	 flex-direction: column;
-	 margin: 0;
-	 padding: 0;
-}
- .box {
-	 background-position: center;
-	 background-repeat: no-repeat;
-	 background-size: cover;
-	 margin: 1rem;
-	 padding: 1rem;
-	 background-color: #5f4b8b1F;
-	 width: fit-content;
-}
- .name.box {
-	 text-transform: uppercase;
-	 font-size: 2rem;
-	 line-height: 1;
-	 padding: 1rem 0 2rem 0;
+ .name {
 	 background-color: #121212;
 	 font-family: 'Raleway Extra Bold';
-	 justify-content: flex-end;
+	 text-transform: uppercase;
 }
- .quote.box {
-	 font-family: 'Courier Prime';
+ .quote {
 	 background-color: #121212;
 	 color: #778b4b;
-	 padding: 0;
-	 font-size: 1rem;
+	 font-family: 'Courier Prime';
+	 width: fit-content;
 }
- .quote.box .author {
-	 text-align: right;
+ .quote .author {
 	 font-style: italic;
+	 text-align: right;
 }
- .photo.box {
-	 background-color: #121212;
-	 padding: 0;
-}
- .photo.box img {
+ .photo img {
 	 filter: brightness(80%);
-	 width: 100%;
+}
+ .btn-primary {
+	 background-color: #57693c;
+	 border-color: #fff;
+	 border-radius: 1px;
+	 color: #fff;
+	 border-width: 1px;
+}
+ .btn-primary:hover {
+	 background-color: #fff;
+	 border-color: #57693c;
+	 color: #57693c;
+}
+ .card {
+	 border-radius: 0;
+	 background-color: #5f4b8b29;
+	 color: #fff;
+	 padding: 1rem;
+}
+ .card .card-header {
+	 border-color: #778b4b;
+}
+ .card .card-img-top {
+	 border-radius: 0;
+}
+ .card .card-link {
+	 margin: 0.5rem 0;
+	 justify-content: flex-end;
 }
  .link {
 	 color: #cf6679;
 	 text-decoration: underline;
 }
- .project img {
-	 width: 100%;
-	 margin-left: auto;
-	 margin-right: auto;
-	 display: block;
-}
  .footer {
-	 flex-shrink: none;
-	 background-color: #5f4b8b1F;
-	 text-align: right;
+	 background-color: #5f4b8b29;
+	 color: #fff80;
 	 font-size: 0.8rem;
-	 color: #aca3c4;
+	 text-align: center;
 }

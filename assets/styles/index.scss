@@ -10,6 +10,7 @@ $primary-ultra-violet-variant-light: #aca3c4;
 $primary-ultra-violet-variant-dark: #382d5d;
 $secondary-sage: #778b4b;
 $secondary-sage-variant-medium: #afc367;
+$secondary-sage-variant-dark: #57693c;
 $secondary-sage-variant-medium-sixteen: #afc36729;
 $secondary-sage-variant-light: #d6e1b1;
 $dark-error: #cf6679;
@@ -63,7 +64,7 @@ $material-io-purple: #6200ee;
 }
 
 .btn-primary {
-  background-color: $secondary-sage;
+  background-color: $secondary-sage-variant-dark;
   border-color: $white;
   border-radius: 1px;
   color: $white;
@@ -71,8 +72,8 @@ $material-io-purple: #6200ee;
 
   &:hover {
     background-color: $white;
-    border-color: $secondary-sage;
-    color: $secondary-sage;
+    border-color: $secondary-sage-variant-dark;
+    color: $secondary-sage-variant-dark;
   }
 }
 

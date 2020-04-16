@@ -1,7 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
 
-// hex to be written in lower case letters
-// repetitive letter to be shortcutted to 3 letters
 $white: #fff;
 $white-half-opacity: #FFFFFF80;
 $surface-color: #121212;
@@ -24,6 +22,10 @@ $dark-error: #CF6679;
   src: url('public/Raleway/Raleway-Regular.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'Montserrat';
+  src: url('public/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Courier Prime';
   src: url('public/Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
 }
@@ -32,17 +34,16 @@ $dark-error: #CF6679;
   background-color: $surface-color;
   color: $white;
   font-family: 'Raleway';
-  display: flex;
-  flex-direction: column;
 }
 
-.link {
-  color: $dark-error;
-  text-decoration: underline;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .box {
-  // background-image: linear-gradient($half-opacity, $half-opacity), url('public/johannes-plenio-DKix6Un55mw-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,11 +55,12 @@ $dark-error: #CF6679;
 
 .name.box {
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1;
   padding: 1rem 0 2rem 0;
   background-color: $surface-color;
   font-family: 'Raleway Extra Bold';
+  justify-content: flex-end;
 }
 
 .quote.box {
@@ -82,6 +84,11 @@ $dark-error: #CF6679;
   }
 }
 
+.link {
+  color: $dark-error;
+  text-decoration: underline;
+}
+
 .project img {
   width: 100%;
   margin-left: auto;
@@ -92,49 +99,3 @@ $dark-error: #CF6679;
 .sticky-footer {
   flex-shrink: none;
 }
-
-// @media (min-width: 480px) {
-//   body {
-//     background-color: purple;
-//   }
-//
-//   h1 {
-//     font-size: 60px;
-//     padding: 80px 20px;
-//   }
-//
-// }
-//
-// @media (min-width: 768px) {
-//   body {
-//     background-color: blue;
-//   }
-//
-//   h1 {
-//     font-size: 90px;
-//     padding: 120px 80px 120px 40px;
-//   }
-// }
-//
-// @media (min-width: 992px) {
-//   body {
-//     background-color: green;
-//   }
-//
-//   h1 {
-//     padding: 150px 80px 150px 30px;
-//   }
-// }
-//
-// @media (min-width: 1200px) {
-//   body {
-//     background-color: orange;
-//   }
-//
-//   h1 {
-//     padding: 180px 80px 180px 40px;
-//   }
-//
-//   .box {
-//   }
-// }

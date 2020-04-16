@@ -41,31 +41,32 @@ $dark-error: #cf6679;
   // padding: 1rem;
 }
 
+.name {
+  background-color: $surface-color;
+  font-family: 'Raleway Extra Bold';
+  text-transform: uppercase;
+}
+
+.quote {
+  background-color: $surface-color;
+  color: $secondary-sage;
+  font-family: 'Courier Prime';
+  width: fit-content;
+
+  .author {
+    font-style: italic;
+    text-align: right;
+  }
+}
+
+.photo {
+  img {
+    filter: brightness(80%);
+  }
+}
+
 .card {
   background-color: $primary-ultra-violet;
-
-  &.name {
-    background-color: $surface-color;
-    font-family: 'Raleway Extra Bold';
-    text-transform: uppercase;
-  }
-
-  &.quote {
-    background-color: $surface-color;
-    color: $secondary-sage;
-    font-family: 'Courier Prime';
-
-    .author {
-      font-style: italic;
-      text-align: right;
-    }
-  }
-
-  &.photo {
-    img {
-      filter: brightness(80%);
-    }
-  }
 }
 
 .link {

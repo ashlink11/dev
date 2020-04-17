@@ -25,10 +25,6 @@ $material-io-purple: #6200ee;
   src: url('public/Raleway/Raleway-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Montserrat';
-  src: url('public/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
-}
-@font-face {
   font-family: 'Courier Prime';
   src: url('public/Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
 }
@@ -39,9 +35,10 @@ $material-io-purple: #6200ee;
   font-family: 'Raleway';
 }
 
-.name {
+.heading {
   background-color: $surface-color;
   font-family: 'Raleway Extra Bold';
+  padding: 0;
   text-transform: uppercase;
 }
 
@@ -67,8 +64,8 @@ $material-io-purple: #6200ee;
   background-color: $secondary-sage-variant-dark;
   border-color: $white;
   border-radius: 1px;
-  color: $white;
   border-width: 1px;
+  color: $white;
 
   &:hover {
     background-color: $white;
@@ -78,8 +75,8 @@ $material-io-purple: #6200ee;
 }
 
 .card {
-  border-radius: 0;
   background-color: $primary-ultra-violet-sixteen-percent;
+  border-radius: 0;
   color: $white;
   padding: 1rem;
 
@@ -92,8 +89,31 @@ $material-io-purple: #6200ee;
   }
 
   .card-link {
-    margin: .5rem 0;
     justify-content: flex-end;
+    margin: .5rem 0;
+  }
+}
+
+.about-me {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .about-me-box {
+    background-color: $primary-ultra-violet-sixteen-percent;
+    border-bottom: .03rem solid $secondary-sage;
+    // border: .03rem solid $secondary-sage;
+    border-radius: 0;
+    border-top: .03rem solid $secondary-sage;
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .connecting-line {
+    border: .03rem solid $secondary-sage;
+    height: 2rem;
   }
 }
 

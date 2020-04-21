@@ -135,6 +135,28 @@ $material-io-purple: #6200ee;
   .col-md-4 {
     max-width: 180px;
   }
+
+  .row {
+    align-items: center;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  .heroku {
+    max-width: 100px;
+  }
+
+  .styled-components {
+    font-size: .9rem;
+  }
+
+  .mongo {
+    p {
+      margin-top: 2rem;
+    }
+  }
 }
 
 .link {

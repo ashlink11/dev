@@ -34,7 +34,11 @@ The repo you are currently viewing is not the repo where my commit history lives
 
 #### Freelancing Skills:
 - Wordpress management
-- SEO (image tags, metadata)
+- SEO strategies (image alt tags, metadata, Structured Data, content, keywords, UX design)
+- Use of SEO tools
+  - Google Search Console
+  - Google PageSpeed Insights
+  - Google MyBusiness
 
 #### Skills/knowledge from software engineering at Huckabuy (SEO Marketing startup in Park City, UT):
 - Remote skills

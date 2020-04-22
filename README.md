@@ -1,7 +1,14 @@
-# Ash's Portfolio
-## version 1 completed April 21, 2020
+# Ash Grevelink's Portfolio
 
-## More about me not on my portfolio
+April 22, 2020 update:
+
+Version 1 (MVP -- minimum-viable-product) completed April 21, 2020.
+
+My portfolio site currently lives here with the live link of: https://hashbangash.github.io/dev/.
+
+The repo you are currently viewing is not the repo where my commit history lives. My commit history is [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of https://hashbangash.github.io/ (notice there is no `/dev`). That version has deployment issues with Bootstrap margins. I hope to address these in Version 2 of my portfolio. I plan on reading grunt, webpack and Bootstrap documentation and building the dev and production environments from scratch in order to solve these issues. I'm excited for that.
+
+## More about me that's not on my portfolio:
 
 #### General Assembly Software Engineering Bootcamp Topics:
 - Project 1 (JavaScript, HTML, CSS, AJAX, jQuery, npm)
@@ -35,6 +42,12 @@
 - Responsility for Structured Data on 75+ enterprise customers' websites including SAP App Center, Salesforce AppExchange, Domo, SaltStack, Pluralsight, etc.
 - Google search algorithm, crawling & rendering
 - SEO strategies & tools
+  - Google Search Console
+  - Ahrefs
+  - Google Lighthouse
+  - Google Analytics
+  - Google PageSpeed Insights
+  - Google MyBusiness
 - Google Cloud Platform architecture (Google App Engine, Kubernetes, etc.)
 - Docker
 - git & Github
@@ -42,22 +55,12 @@
 
 #### Contact info:
 - [LinkedIn](https://www.linkedin.com/in/ash-grevelink/)
-- [Github](https://github.com/hashbangash)
+- [GitHub](https://github.com/hashbangash)
 - Greater Boston Area
 - ashlink1111@gmail.com
-
-## Things I would like to add in v2:
-
-- For your team project, be sure to fork, clone, and individually redeploy your project to maintain individual ownership over the site showcased on your portfolio.
-- Briefly describe your process for building each app. If you have a blog post that goes into detail for each project, link to that post.
-- Make sure your projects are user-friendly to an unacquainted visitor.
-  - The home page should explain the site’s functionality
-  - **Random users might not want to sign up/sign in.** Consider adding dummy credentials on the homepage that they can use (and explain that), or make sure they can interact with the site without signing up.
-- After you've completed the program, **revisit your projects and refactor them**.  Add new features.  Improve the user experience.  Fix any open issues.  Enhance the app's design aesthetic.
-- **Clean up test data** and create some seed data that you can use to easily refresh your database.  If you want to get fancy, you can write a [scheduled task](https://devcenter.heroku.com/articles/scheduler) that drops, recreates, and reseeds your database periodically.
 
 ## [License](LICENSE)
 
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-1. All software code is licensed under GNU GPLv3. For commercial use or
+2. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.

@@ -1,8 +1,27 @@
 # Ash Grevelink's Portfolio
 
-April 22, 2020 update:
+April 23, 2020 update:
 
-Version 1 (MVP -- minimum-viable-product) completed April 21, 2020.
+Version 1 (MVP -- minimum-viable-product) completed April 21, 2020. Includes:
+  - Name, quote, photo.
+  - 4 projects
+  - Skills section
+  - About me section
+  - Contact section
+  - Mobile-first, responsive, accessible, dark-mode, minimalist design.
+Version 2 - completed April 22, 2020. Includes:
+  - "About this site" section on accessibility, licensing, and tech.
+  - Alt text and title text on all images. All logos have alt text.
+  - Story of development for all Projects.
+  - In-class presentation link on Data Flow.
+  - Ensures all links open in a new tab.
+  - Navigation menu to navigate to parts of the page.
+  - Focus on accessibility including h1,h2,h3 hierarchy.
+Version 3 - in progress April 23, 2020. Includes:
+  - Bill of Tech to README
+  - Licensing
+  - Vulnerabilities
+  - Log-in help for all my projects.
 
 My portfolio site currently lives here with the live link of: https://hashbangash.github.io/dev/.
 
@@ -43,15 +62,9 @@ The repo you are currently viewing is not the repo where my commit history lives
 #### Skills/knowledge from software engineering at Huckabuy (SEO Marketing startup in Park City, UT):
 - Remote skills
 - LD-JSON Structured Data
-- Responsility for Structured Data on 75+ enterprise customers' websites including SAP App Center, Salesforce AppExchange, Domo, SaltStack, Pluralsight, etc.
+- Responsibility for Structured Data on 75+ enterprise customers' websites including SAP App Center, Salesforce AppExchange, Domo, SaltStack, Pluralsight, etc.
 - Google search algorithm, crawling & rendering
-- SEO strategies & tools
-  - Google Search Console
-  - Ahrefs
-  - Google Lighthouse
-  - Google Analytics
-  - Google PageSpeed Insights
-  - Google MyBusiness
+- SEO strategies & tools (Google Search Console, Ahrefs, Google Lighthouse, Google Analytics, Google PageSpeed Insights)
 - Google Cloud Platform architecture (Google App Engine, Kubernetes, etc.)
 - Docker
 - git & Github
@@ -63,8 +76,57 @@ The repo you are currently viewing is not the repo where my commit history lives
 - Greater Boston Area
 - ashlink1111@gmail.com
 
-## [License](LICENSE)
+## Bill of Technology
 
+I took a Software Engineering Immersive from General Assembly, Boston and I use their front-end [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template) as base for this website. The versioning of my dependencies is a bit behind the latest. For example, `babel-polyfill` is deprecated. It was still a great learning opportunity and has given me the knowledge to build my own projects from scratch with versioning maintainability in mind.
+
+I use npm to manage the node modules and packages. [`package.json`](./package.json) has a list of `dependencies` and `devDependencies`. `devDependencies` are tools used for development, not production, and there are 33 of them in this project, including `webpack`, `grunt`, a linter, etc.
+
+```json
+"dependencies": {
+  "jquery": "^3.3.1",
+  "babel-polyfill": "^6.26.0",
+  "bootstrap": "^4.1.2",
+  "popper.js": "^1.14.3"
+}
+```
+
+**jQuery**: Incredibly valuable JS library that simplifies creating event handlers. Instead of writing complex JS commands to select HTML elements and apply events or styling to them, I can write simple jQuery commands. jQuery has an MIT License.
+
+A little history: In the late '90s, Microsoft Internet Explorer didn't follow ECMA's JavaScript/ECMAScript Standard, so the way developers had to write apps for the web got fragmented. Different browsers implemented features like manipulating the DOM with slightly different language, e.g. `appendChild` vs. `insertChild`. Developers had to write a few different versions of their app for different browsers. That is why John Resig invented the jQuery library in 2006, so that a developer could write the app once and have it work on all browsers. Today, there are still differences between browsers, since the ECMAScript Standard doesn't specify how a browser implements JavaScript, and how complete the implementation is, and when.
+
+**babel polyfill**: Transpiles ECMAScript 6+ code to ES5. A polyfill provides modern functionality for older browsers.
+
+The main reason we need polyfills now is because it's common for different browser engines to implement only part of the ECMAScript standard. Modern JavaScript might not be supported by all browsers, so we need to translate the new JavaScript features into older ones.
+
+Babel is a JS compiler that is now broken into separate small packages. I am using just the polyfill package. Babel has an MIT license.
+
+**bootstrap**: An open-source CSS framework that adds a grid system of containers, rows, and columns so I can easily use traditional CSS features like flexbox within a row, for example. It also has an MIT license.
+
+**popper.js**: Popper is required dependency for Bootstrap. It has zero dependencies of its own in turn, and helps with positioning of pop-up elements. It has an MIT license.
+
+### Vulnerabilities
+GitHub identifies known vulnerabilities in my dependencies. There are quite a few vulnerabilities in my app! Go ahead, try to break my app!
+
+## [License](LICENSE)
+All of my tech dependencies have [MIT license](https://jquery.org/license/). The MIT License is compatible with my project because it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL). It is open-source and free (in the sense of 'freedom').
+
+My project has a [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt). It is GPL-3.0-or-later. The type is [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), meaning:
+
+You are free to:
+* Share — copy and redistribute the material in any medium or format
+* Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+* Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* NonCommercial — You may not use the material for commercial purposes.
+* ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+"You are free to use the Project in any other project (even commercial projects) as long as the copyright header is left intact."
+
+More info about this GNU GPLv3 license: Copyright © 2007 [Free Software Foundation, Inc.](https://fsf.org/)
+
+From the General Assembly [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template) license:
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.
 2. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.

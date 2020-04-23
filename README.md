@@ -9,6 +9,7 @@ Version 1 (MVP -- minimum-viable-product) completed April 21, 2020. Includes:
   - About me section
   - Contact section
   - Mobile-first, responsive, accessible, dark-mode, minimalist design.
+
 Version 2 - completed April 22, 2020. Includes:
   - "About this site" section on accessibility, licensing, and tech.
   - Alt text and title text on all images. All logos have alt text.
@@ -17,6 +18,7 @@ Version 2 - completed April 22, 2020. Includes:
   - Ensures all links open in a new tab.
   - Navigation menu to navigate to parts of the page.
   - Focus on accessibility including h1,h2,h3 hierarchy.
+
 Version 3 - in progress April 23, 2020. Includes:
   - Bill of Tech to README
   - Licensing

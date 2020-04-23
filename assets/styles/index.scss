@@ -38,15 +38,13 @@ $material-io-purple: #6200ee;
 .heading {
   background-color: $surface-color;
   font-family: 'Raleway Extra Bold';
+  font-size: 2.5rem;
   padding: 0;
   text-transform: uppercase;
+}
 
-  // &.name {
-  //   text-decoration: underline;
-  //   // text-decoration-thickness: .3rem;
-  //   // text-underline-offset: .3rem;
-  //   text-decoration-color: $primary-ultra-violet-variant-light;
-  // }
+h3 {
+  font-size: 1.7rem;
 }
 
 .quote {
@@ -64,6 +62,33 @@ $material-io-purple: #6200ee;
 .photo {
   img {
     filter: brightness(80%);
+  }
+}
+
+.nav {
+  margin: 1rem;
+
+  .row {
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &
+
+    .menu-item {
+      padding: .5rem;
+
+    }
+
+    .link {
+      color: $dark-error;
+      text-decoration: underline;
+
+      &:hover {
+        background-color: $white;
+      }
+    }
   }
 }
 
@@ -98,6 +123,30 @@ $material-io-purple: #6200ee;
   .card-link {
     justify-content: flex-end;
     margin: .5rem 0;
+  }
+}
+
+.project-paragraph {
+  text-align: justify;
+}
+
+.about-this-site {
+  .card {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .card-body {
+    text-align: justify;
+  }
+
+  .repo-link {
+    color: $dark-error;
+    text-decoration: underline;
+
+    &:hover {
+      background-color: $white;
+    }
   }
 }
 

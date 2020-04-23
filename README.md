@@ -112,7 +112,22 @@ GitHub identifies known vulnerabilities in my dependencies. There are quite a fe
 
 ## [License](LICENSE)
 
-My project has a [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt). It is GPL-3.0-or-later. The type is [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), meaning:
+Thir project uses the General Assembly website template called the [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template). There are separate licenses for the software and the content.
+
+From the General Assembly [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template) license:
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or
+alternative licensing, please contact legal@ga.co.
+
+### Software License
+My project's software has a [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt). Specifically, the license is GPL-3.0-or-later.
+
+More info about this GNU GPLv3 license: Copyright © 2007 [Free Software Foundation, Inc.](https://fsf.org/)
+
+All of my other tech dependencies have [MIT license](https://jquery.org/license/). The MIT License is compatible with my project because it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL). It is open-source and free (in the sense of 'freedom').
+
+### Content License
+The license of General Assembly's content (not software) is [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), meaning:
 
 You are free to:
 * Share — copy and redistribute the material in any medium or format
@@ -122,14 +137,3 @@ Under the following terms:
 * Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 * NonCommercial — You may not use the material for commercial purposes.
 * ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-"You are free to use the Project in any other project (even commercial projects) as long as the copyright header is left intact."
-
-More info about this GNU GPLv3 license: Copyright © 2007 [Free Software Foundation, Inc.](https://fsf.org/)
-
-From the General Assembly [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template) license:
-1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-2. All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
-
-All of my other tech dependencies have [MIT license](https://jquery.org/license/). The MIT License is compatible with my project because it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL). It is open-source and free (in the sense of 'freedom').

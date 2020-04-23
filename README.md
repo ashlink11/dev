@@ -27,7 +27,7 @@ Version 3 - in progress April 23, 2020. Includes:
 
 My portfolio site currently lives here with the live link of: https://hashbangash.github.io/dev/.
 
-The repo you are currently viewing is not the repo where my commit history lives. My commit history is [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of https://hashbangash.github.io/ (notice there is no `/dev`). That version has deployment issues with Bootstrap margins. I hope to address these in Version 2 of my portfolio. I plan on reading grunt, webpack and Bootstrap documentation and building the dev and production environments from scratch in order to solve these issues. I'm excited for that.
+The repo you are currently viewing is not the repo where my commit history lives. My commit history is [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of https://hashbangash.github.io/ (notice there is no `/dev`). That version has deployment issues with Bootstrap margins. I hope to address these in a later version of my portfolio. I plan on reading grunt, webpack and Bootstrap documentation and building the dev and production environments from scratch in order to solve these issues. I'm excited for that.
 
 ## More about me that's not on my portfolio:
 
@@ -111,7 +111,6 @@ Babel is a JS compiler that is now broken into separate small packages. I am usi
 GitHub identifies known vulnerabilities in my dependencies. There are quite a few vulnerabilities in my app! Go ahead, try to break my app!
 
 ## [License](LICENSE)
-All of my tech dependencies have [MIT license](https://jquery.org/license/). The MIT License is compatible with my project because it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL). It is open-source and free (in the sense of 'freedom').
 
 My project has a [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt). It is GPL-3.0-or-later. The type is [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), meaning:
 
@@ -132,3 +131,5 @@ From the General Assembly [browser template](https://git.generalassemb.ly/ga-wdi
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.
 2. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
+
+All of my other tech dependencies have [MIT license](https://jquery.org/license/). The MIT License is compatible with my project because it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL). It is open-source and free (in the sense of 'freedom').

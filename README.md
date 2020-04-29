@@ -108,13 +108,6 @@ Under the following terms:
 
 ## More about me that's not on my portfolio:
 
-#### General Assembly Software Engineering Bootcamp Topics:
-- Project 1 (JavaScript, HTML, CSS, AJAX, jQuery, npm)
-- Project 2 (Ruby, Rails, PostgreSQL, HTML, CSS, AJAX, jQuery, npm, Handlebars, Bootstrap)
-- Project 3 (JavaScript, Node.js, Express, MongoDB, HTML, CSS, AJAX, jQuery, Handlebars, Bootstrap)
-- Project 4 (JavaScript, React (Hooks, JSX, styled-components, Axios), Ruby on Rails, PostgreSQL)
-- Personal site (Bootstrap, HTML, CSS, grunt, webpack, npm)
-
 #### Westminster College (Salt Lake City, UT) courses:
 - Databases (MySQL)
 - Computer Systems (Unix, GNU/Linux, assembly, C)

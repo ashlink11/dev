@@ -1,8 +1,8 @@
 # Ash Grevelink's Portfolio
 
-April 23, 2020 update:
+### April 29, 2020 update:
 
-Version 1 (MVP -- minimum-viable-product) completed April 21, 2020. Includes:
+#### Version 1 (MVP -- minimum-viable-product) completed April 21, 2020. Includes:
   - Name, quote, photo.
   - 4 projects
   - Skills section
@@ -10,7 +10,7 @@ Version 1 (MVP -- minimum-viable-product) completed April 21, 2020. Includes:
   - Contact section
   - Mobile-first, responsive, accessible, dark-mode, minimalist design.
 
-Version 2 - completed April 22, 2020. Includes:
+#### Version 2 - completed April 22, 2020. Includes:
   - "About this site" section on accessibility, licensing, and tech.
   - Alt text and title text on all images. All logos have alt text.
   - Story of development for all Projects.
@@ -19,24 +19,32 @@ Version 2 - completed April 22, 2020. Includes:
   - Navigation menu to navigate to parts of the page.
   - Focus on accessibility including h1,h2,h3 hierarchy.
 
-Version 3 - completed April 24, 2020. Includes:
+#### Version 3 - completed April 24, 2020. Includes:
   - Bill of Tech to README
   - Licensing
+  - Vulnerabilities
   - New favicon
 
-Version 4: expected completion: May 8, 2020
+#### Version 4: expected completion: May 8, 2020
   - Rebuild the site with React, yarn, and parcel instead of GA's `browser-template`. This build process will be based on the one from my current [dojo project](https://github.com/hashbangash/dojo). This will enable:
     - my portfolio is built on software with a MIT License.
     - more pages with `react-router-dom` so my "about this site" can live on it's own page
     - transform this from a SPA (single-page-app) to a PWA (progressive web-app)
+    - address vulnerabilities in the `browser-template` stack and provide a secure site
   - Add log-in help for all my projects.
   - Add an illustration visualizing my progress over my computing career of skills gained based on [the developer roadmap](https://github.com/kamranahmedse/developer-roadmap).
 
+***
+
 My portfolio site currently lives here with the live link of: https://hashbangash.github.io/dev/.
+
+***
 
 The repo you are currently viewing is not the repo where my commit history lives. My commit history is [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of https://hashbangash.github.io/ (notice there is no `/dev`). That version has deployment issues with Bootstrap margins. I hope to address these in a later version of my portfolio. I plan on reading grunt, webpack and Bootstrap documentation and building the dev and production environments from scratch in order to solve these issues. I'm excited for that.
 
-## Bill of Technology
+***
+
+# Bill of Technology
 
 I took a Software Engineering Immersive from General Assembly, Boston and I use their front-end [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template) as base for this website. The versioning of my dependencies is a bit behind the latest. For example, `babel-polyfill` is deprecated. It was still a great learning opportunity and has given me the knowledge to build my own projects from scratch with versioning maintainability in mind.
 
@@ -66,7 +74,7 @@ Babel is a JS compiler that is now broken into separate small packages. I am usi
 **popper.js**: Popper is required dependency for Bootstrap. It has zero dependencies of its own in turn, and helps with positioning of pop-up elements. It has an MIT license.
 
 ### Vulnerabilities
-GitHub identifies known vulnerabilities in my dependencies. There are quite a few vulnerabilities in my app! Go ahead, try to break my app!
+Version 4 will address vulnerabilities, which is a major goal of my [dojo project](https://github.com/hashbangash/dojo).
 
 ## [License](LICENSE)
 

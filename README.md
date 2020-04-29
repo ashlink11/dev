@@ -31,6 +31,8 @@
     - more pages with `react-router-dom` so my "about this site" can live on it's own page
     - transform this from a SPA (single-page-app) to a PWA (progressive web-app)
     - address vulnerabilities in the `browser-template` stack and provide a secure site
+    - minify (compress) my JS files so they are much smaller
+  - Compress all my image files.
   - Add log-in help for all my projects.
   - Add an illustration visualizing my progress over my computing career of skills gained based on [the developer roadmap](https://github.com/kamranahmedse/developer-roadmap).
 

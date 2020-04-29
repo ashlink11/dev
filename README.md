@@ -1,6 +1,6 @@
 # Ash Grevelink's Portfolio
-
-### April 29, 2020 update:
+#### Date created: Monday, April 13, 2020
+#### Date last modified: Wednesday, April 29, 2020
 
 #### Version 1 (MVP -- minimum-viable-product) completed April 21, 2020. Includes:
   - Name, quote, photo.

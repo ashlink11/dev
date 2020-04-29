@@ -19,64 +19,22 @@ Version 2 - completed April 22, 2020. Includes:
   - Navigation menu to navigate to parts of the page.
   - Focus on accessibility including h1,h2,h3 hierarchy.
 
-Version 3 - in progress April 23, 2020. Includes:
+Version 3 - completed April 24, 2020. Includes:
   - Bill of Tech to README
   - Licensing
-  - Vulnerabilities
-  - Log-in help for all my projects.
+  - New favicon
+
+Version 4: expected completion: May 8, 2020
+  - Rebuild the site with React, yarn, and parcel instead of GA's `browser-template`. This build process will be based on the one from my current [dojo project](https://github.com/hashbangash/dojo). This will enable:
+    - my portfolio is built on software with a MIT License.
+    - more pages with `react-router-dom` so my "about this site" can live on it's own page
+    - transform this from a SPA (single-page-app) to a PWA (progressive web-app)
+  - Add log-in help for all my projects.
+  - Add an illustration visualizing my progress over my computing career of skills gained based on [the developer roadmap](https://github.com/kamranahmedse/developer-roadmap).
 
 My portfolio site currently lives here with the live link of: https://hashbangash.github.io/dev/.
 
 The repo you are currently viewing is not the repo where my commit history lives. My commit history is [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of https://hashbangash.github.io/ (notice there is no `/dev`). That version has deployment issues with Bootstrap margins. I hope to address these in a later version of my portfolio. I plan on reading grunt, webpack and Bootstrap documentation and building the dev and production environments from scratch in order to solve these issues. I'm excited for that.
-
-## More about me that's not on my portfolio:
-
-#### General Assembly Software Engineering Bootcamp Topics:
-- Project 1 (JavaScript, HTML, CSS, AJAX, jQuery, npm)
-- Project 2 (Ruby, Rails, PostgreSQL, HTML, CSS, AJAX, jQuery, npm, Handlebars, Bootstrap)
-- Project 3 (JavaScript, Node.js, Express, MongoDB, HTML, CSS, AJAX, jQuery, Handlebars, Bootstrap)
-- Project 4 (JavaScript, React (Hooks, JSX, styled-components, Axios), Ruby on Rails, PostgreSQL)
-- Personal site (Bootstrap, HTML, CSS, grunt, webpack, npm)
-
-#### Westminster College (Salt Lake City, UT) courses:
-- Databases (MySQL)
-- Computer Systems (Unix, GNU/Linux, assembly, C)
-- Networking (Java)
-- Operating Systems (C)
-- Software Engineering (Spring, Java, Angular, AGILE)
-
-#### University of Utah courses:
-- Intro to Computer Science (hardware, build simple computer)
-- Intro to Object-Oriented Programming (Java)
-- Data Structures & Algorithms (taken 3 times)
-- Deductive Logic
-- Calculus I
-- Discrete Structures
-
-#### Freelancing Skills:
-- Wordpress management
-- SEO strategies (image alt tags, metadata, Structured Data, content, keywords, UX design)
-- Use of SEO tools
-  - Google Search Console
-  - Google PageSpeed Insights
-  - Google MyBusiness
-
-#### Skills/knowledge from software engineering at Huckabuy (SEO Marketing startup in Park City, UT):
-- Remote skills
-- LD-JSON Structured Data
-- Responsibility for Structured Data on 75+ enterprise customers' websites including SAP App Center, Salesforce AppExchange, Domo, SaltStack, Pluralsight, etc.
-- Google search algorithm, crawling & rendering
-- SEO strategies & tools (Google Search Console, Ahrefs, Google Lighthouse, Google Analytics, Google PageSpeed Insights)
-- Google Cloud Platform architecture (Google App Engine, Kubernetes, etc.)
-- Docker
-- git & Github
-- Teamwork (leader-leader model, "5 Dysfunctions of a Team" book philosophy)
-
-#### Contact info:
-- [LinkedIn](https://www.linkedin.com/in/ash-grevelink/)
-- [GitHub](https://github.com/hashbangash)
-- Greater Boston Area
-- ashlink1111@gmail.com
 
 ## Bill of Technology
 
@@ -137,3 +95,52 @@ Under the following terms:
 * Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 * NonCommercial — You may not use the material for commercial purposes.
 * ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+## More about me that's not on my portfolio:
+
+#### General Assembly Software Engineering Bootcamp Topics:
+- Project 1 (JavaScript, HTML, CSS, AJAX, jQuery, npm)
+- Project 2 (Ruby, Rails, PostgreSQL, HTML, CSS, AJAX, jQuery, npm, Handlebars, Bootstrap)
+- Project 3 (JavaScript, Node.js, Express, MongoDB, HTML, CSS, AJAX, jQuery, Handlebars, Bootstrap)
+- Project 4 (JavaScript, React (Hooks, JSX, styled-components, Axios), Ruby on Rails, PostgreSQL)
+- Personal site (Bootstrap, HTML, CSS, grunt, webpack, npm)
+
+#### Westminster College (Salt Lake City, UT) courses:
+- Databases (MySQL)
+- Computer Systems (Unix, GNU/Linux, assembly, C)
+- Networking (Java)
+- Operating Systems (C)
+- Software Engineering (Spring, Java, Angular, AGILE)
+
+#### University of Utah courses:
+- Intro to Computer Science (hardware, build simple computer)
+- Intro to Object-Oriented Programming (Java)
+- Data Structures & Algorithms (taken 3 times)
+- Deductive Logic
+- Calculus I
+- Discrete Structures
+
+#### Freelancing Skills:
+- Wordpress management
+- SEO strategies (image alt tags, metadata, Structured Data, content, keywords, UX design)
+- Use of SEO tools
+  - Google Search Console
+  - Google PageSpeed Insights
+  - Google MyBusiness
+
+#### Skills/knowledge from software engineering at Huckabuy (SEO Marketing startup in Park City, UT):
+- Remote skills
+- LD-JSON Structured Data
+- Responsibility for Structured Data on 75+ enterprise customers' websites including SAP App Center, Salesforce AppExchange, Domo, SaltStack, Pluralsight, etc.
+- Google search algorithm, crawling & rendering
+- SEO strategies & tools (Google Search Console, Ahrefs, Google Lighthouse, Google Analytics, Google PageSpeed Insights)
+- Google Cloud Platform architecture (Google App Engine, Kubernetes, etc.)
+- Docker
+- git & Github
+- Teamwork (leader-leader model, "5 Dysfunctions of a Team" book philosophy)
+
+#### Contact info:
+- [LinkedIn](https://www.linkedin.com/in/ash-grevelink/)
+- [GitHub](https://github.com/hashbangash)
+- Greater Boston Area
+- ashlink1111@gmail.com

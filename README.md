@@ -2,14 +2,6 @@
 #### Date created: Monday, April 13, 2020
 #### Date last modified: Friday, May 8, 2020
 
-# Version 4 Build Process from Dojo Project
-
-I created the [dojo project](https://github.com/hashbangash/dojo) so I could build a toolchain from scratch to develop and build my portfolio
-
-A few instructions were different, since the dojo project builds a React app and this is a Bootstrap web app.
-
-Here are the steps I took in [v4 build process](/v4_build.md).
-
 # Version History
 
 #### Version 1 (MVP -- minimum-viable-product) completed April 21, 2020. Includes:
@@ -31,18 +23,29 @@ Here are the steps I took in [v4 build process](/v4_build.md).
   - Bill of Tech to README
   - Licensing
   - Vulnerabilities
-#### Version 4 -
+#### Version 4 - May 9, 2020.
   - Rebuilt toolchain from scratch with yarn and parcel
   - Also includes Bootstrap, Sass and gh-pages dependencies
   - Resized images so they are never wider than 450px and 530px accordingly
   - All tech is now MIT-Licensed and able to be used commercially
   - All tech is latest version which helps prevent vulnerabilities
 
-***
+## Build Process
+
+First, I created the [dojo project](https://github.com/hashbangash/dojo). It's a simple web-app built with yarn, Parcel, and React. I created a detailed tutorial so others could build a toolchain from scratch.
+
+Then, I rebuilt this portfolio's toolchain with:
+ - yarn (the package manager)
+ - parcel (the module bundler)
+ - babel (the compiler)
+ - Bootstrap
+ - Sass
+
+Here are the steps I took in [build process](/v4_build.md).
+
+## Commit History
 
 The repo you are currently viewing is not the repo where all my commit history lives. 130+ commits are [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of https://hashbangash.github.io/ (notice there is no `/dev`). I used these multiple repos for experimenting with the different build processes for GitHub user sites (built off `master` branch) and GitHub Pages (built off `gh-pages` branch). I was able to build both using the parcel toolchain, but the configuration is easier with GitHub Pages rather than GitHub user sites at present.
-
-***
 
 # Bill of Technology
 

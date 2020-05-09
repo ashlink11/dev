@@ -4,11 +4,13 @@
   "description": "Portfolio site built with yarn, parcel, Bootstrap, and Sass.",
   "main": "index.js",
   "repository": "git@github.com:hashbangash/dev.git",
+  "homepage": "https://hashbangash.github.io/dev",
   "author": "ashtreehugs <agrev8@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
@@ -16,5 +18,11 @@
     "parcel": "^2.0.0-alpha.3.2",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.5"
+  },
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html --public-url /dev/",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   }
 }

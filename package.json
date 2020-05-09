@@ -6,5 +6,15 @@
   "repository": "git@github.com:hashbangash/dev.git",
   "author": "ashtreehugs <agrev8@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  }
 }

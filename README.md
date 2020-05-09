@@ -1,4 +1,3 @@
-# The Portfolio
 #### Date created: Monday, April 13, 2020
 #### Date last modified: Friday, May 8, 2020
 
@@ -33,15 +32,25 @@
   - All tech is now MIT-Licensed and able to be used commercially
   - All tech is latest version which helps prevent vulnerabilities
 
+# Dark Theme Design
+
+I used the Pantone 2018 Color of the Year "ultra violet" for my primary color (hex: `#5f4b8b`). Then, I used [Material.io's Color Palette Generator](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) to generate my complementary color (sage green-ish).
+
+![Color Palette](https://user-images.githubusercontent.com/22508682/81463195-93870a00-9185-11ea-8fd8-a2a7f0fe3f0b.png)
+
+I chose a handful of different variants of my primary and complementary colors to [separate surfaces and meet accessibility standards](https://material.io/design/color/dark-theme.html).
+
+I created some [transparent variants with 8-digit hex](https://css-tricks.com/8-digit-hex-codes/) to help express depth on the classic dark gray surface (`#121212`).
+
+![Sass Colors](https://user-images.githubusercontent.com/22508682/81463197-94b83700-9185-11ea-9418-83240ba2a03b.png)
+
 # Bill of Technology
 
 First, I created the [dojo project](https://github.com/hashbangash/dojo). It's a simple web-app built with yarn, Parcel, and React. I created a detailed tutorial so others could build a toolchain from scratch.
 
 Then, using the dojo project tutorial, I rebuilt this portfolio's toolchain. Here are the steps I took in [the build process](/v4_build.md). Here's the [Old Bill of Tech before I rebuilt the app](./version_history.md).
 
-## Package Manager
-
-### yarn
+### [yarn](https://yarnpkg.com/) (package manager)
  - "Fast, reliable, and secure dependency management."
  - built by Facebook in 2016
 
@@ -55,25 +64,25 @@ Then, using the dojo project tutorial, I rebuilt this portfolio's toolchain. Her
 },
 ```
 
-### jQuery
+### [jQuery](https://jquery.com/)
  - write simple jQuery commands to select HTML elements and modify them instead of complex JavaScript commands
  - jQuery commands work with many different browser DOMs, so you write once and works on all browsers
  - open-source MIT License (in the jQuery source code)
  - John Resig invented the jQuery library in 2006
 
-### Bootstrap
+### [Bootstrap](https://getbootstrap.com/)
  - CSS framework
  - grid system of containers, rows, and columns
  - easily use traditional CSS features like Flexbox within a row, for example
  - open-source MIT License
 
-### Popper.js
+### [Popper.js](https://popper.js.org/)
  - required dependency for Bootstrap
  - zero dependencies of its own
  - helps with positioning of pop-up elements
  - open-source MIT license
 
-### gh-pages
+### [gh-pages](https://pages.github.com/)
  - GitHub Pages is a static site hosting service
  - use to deploy my site live to <https://hashbangash.github.io/dev/>
 
@@ -91,7 +100,7 @@ Then, using the dojo project tutorial, I rebuilt this portfolio's toolchain. Her
  - Ryan Dahl (creator of Node.js and Deno JS frameworks) said that parcel is "really great" in his [10 Things I Regret About Node.js talk](https://www.youtube.com/watch?v=M3BM9TB-8yA) (at 23:20)
  - `parcel` is the CLI tool and `parcel-bundler` is the main library of code
 
-### Sass
+### [Sass](https://sass-lang.com/documentation)
  - "stylesheet language" that pre-compiles scss into css
  - can store variables and nest css styles
 

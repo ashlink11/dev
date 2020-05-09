@@ -1,6 +1,8 @@
 # Ash Grevelink's Portfolio
 #### Date created: Monday, April 13, 2020
-#### Date last modified: Wednesday, April 29, 2020
+#### Date last modified: Friday, May 8, 2020
+
+# Version History
 
 #### Version 1 (MVP -- minimum-viable-product) completed April 21, 2020. Includes:
   - Name, quote, photo.
@@ -9,7 +11,6 @@
   - About me section
   - Contact section
   - Mobile-first, responsive, accessible, dark-mode, minimalist design.
-
 #### Version 2 - completed April 22, 2020. Includes:
   - "About this site" section on accessibility, licensing, and tech.
   - Alt text and title text on all images. All logos have alt text.
@@ -18,93 +19,88 @@
   - Ensures all links open in a new tab.
   - Navigation menu to navigate to parts of the page.
   - Focus on accessibility including h1,h2,h3 hierarchy.
-
-#### Version 3 - completed April 24, 2020. Includes:
+#### Version 3 - finished April 23, 2020. Includes:
   - Bill of Tech to README
   - Licensing
   - Vulnerabilities
-  - New favicon
+#### Version 4 - May 9, 2020.
+  - Rebuilt toolchain from scratch with yarn and parcel
+  - Also includes Bootstrap, Sass and gh-pages dependencies
+  - Resized images so they are never wider than 450px and 530px accordingly
+  - All tech is now MIT-Licensed and able to be used commercially
+  - All tech is latest version which helps prevent vulnerabilities
 
-#### Version 4: expected completion: May 8, 2020
-  - Rebuild the site with React, yarn, and parcel instead of GA's `browser-template`. This build process will be based on the one from my current [dojo project](https://github.com/hashbangash/dojo). This will enable:
-    - my portfolio is built on software with a MIT License.
-    - more pages with `react-router-dom` so my "about this site" can live on it's own page
-    - transform this from a SPA (single-page-app) to a PWA (progressive web-app)
-    - address vulnerabilities in the `browser-template` stack and provide a secure site
-    - minify (compress) my JS files so they are much smaller
-  - Compress all my image files.
-  - Add log-in help for all my projects.
-  - Add an illustration visualizing my progress over my computing career of skills gained based on [the developer roadmap](https://github.com/kamranahmedse/developer-roadmap).
+## Build Process
 
-***
+First, I created the [dojo project](https://github.com/hashbangash/dojo). It's a simple web-app built with yarn, Parcel, and React. I created a detailed tutorial so others could build a toolchain from scratch.
 
-My portfolio site currently lives here with the live link of: https://hashbangash.github.io/dev/.
+Then, I rebuilt this portfolio's toolchain with:
+ - yarn (the package manager)
+ - parcel (the module bundler)
+ - babel (the compiler)
+ - Bootstrap
+ - Sass
 
-***
+Here are the steps I took in [build process](/v4_build.md).
 
-The repo you are currently viewing is not the repo where my commit history lives. My commit history is [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of https://hashbangash.github.io/ (notice there is no `/dev`). That version has deployment issues with Bootstrap margins. I hope to address these in a later version of my portfolio. I plan on reading grunt, webpack and Bootstrap documentation and building the dev and production environments from scratch in order to solve these issues. I'm excited for that.
+## Commit History
 
-***
+The repo you are currently viewing is not the repo where all my commit history lives. 130+ commits are [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of https://hashbangash.github.io/ (notice there is no `/dev`). I used these multiple repos for experimenting with the different build processes for GitHub user sites (built off `master` branch) and GitHub Pages (built off `gh-pages` branch). I was able to build both using the parcel toolchain, but the configuration is easier with GitHub Pages rather than GitHub user sites at present.
 
 # Bill of Technology
 
-I took a Software Engineering Immersive from General Assembly, Boston and I use their front-end [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template) as base for this website. The versioning of my dependencies is a bit behind the latest. For example, `babel-polyfill` is deprecated. It was still a great learning opportunity and has given me the knowledge to build my own projects from scratch with versioning maintainability in mind.
+[Versions 1, 2, and 3 Bill of Tech](./version_history.md)
 
-I use npm to manage the node modules and packages. [`package.json`](./package.json) has a list of `dependencies` and `devDependencies`. `devDependencies` are tools used for development, not production, and there are 33 of them in this project, including `webpack`, `grunt`, a linter, etc.
-
-```json
+### Version 4 (current version):
+```
 "dependencies": {
-  "jquery": "^3.3.1",
-  "babel-polyfill": "^6.26.0",
-  "bootstrap": "^4.1.2",
-  "popper.js": "^1.14.3"
-}
+  "bootstrap": "^4.4.1",
+  "gh-pages": "^2.2.0",
+  "jquery": "^3.5.1",
+  "popper.js": "^1.16.1"
+},
+"devDependencies": {
+  "parcel": "^2.0.0-alpha.3.2",
+  "parcel-bundler": "^1.12.4",
+  "sass": "^1.26.5"
+},
 ```
 
-**jQuery**: Incredibly valuable JS library that simplifies creating event handlers. Instead of writing complex JS commands to select HTML elements and apply events or styling to them, I can write simple jQuery commands. jQuery has an MIT License.
+#### Summary
+I built the toolchain from scratch with yarn package manager and parcel module bundler from [my dojo project](https://github.com/hashbangash/dojo). Also includes Bootstrap and Sass so I can style my site and gh-pages dependencies so I can deploy it live with GitHub.
+
+###### jQuery
+Incredibly valuable JS library that simplifies creating event handlers. Instead of writing complex JS commands to select HTML elements and apply events or styling to them, I can write simple jQuery commands. jQuery has an MIT License.
 
 A little history: In the late '90s, Microsoft Internet Explorer didn't follow ECMA's JavaScript/ECMAScript Standard, so the way developers had to write apps for the web got fragmented. Different browsers implemented features like manipulating the DOM with slightly different language, e.g. `appendChild` vs. `insertChild`. Developers had to write a few different versions of their app for different browsers. That is why John Resig invented the jQuery library in 2006, so that a developer could write the app once and have it work on all browsers. Today, there are still differences between browsers, since the ECMAScript Standard doesn't specify how a browser implements JavaScript, and how complete the implementation is, and when.
 
-**babel polyfill**: Transpiles ECMAScript 6+ code to ES5. A polyfill provides modern functionality for older browsers.
+From the jQuery license: "You are free to use the Project in any other project (even commercial projects) as long as the copyright header is left intact."
 
-The main reason we need polyfills now is because it's common for different browser engines to implement only part of the ECMAScript standard. Modern JavaScript might not be supported by all browsers, so we need to translate the new JavaScript features into older ones.
+###### Bootstrap
+An open-source CSS framework that adds a grid system of containers, rows, and columns so I can easily use traditional CSS features like flexbox within a row, for example. It also has an MIT license.
 
-Babel is a JS compiler that is now broken into separate small packages. I am using just the polyfill package. Babel has an MIT license.
+###### Popper.js
+Popper is required dependency for Bootstrap. It has zero dependencies of its own in turn, and helps with positioning of pop-up elements. It has an MIT license.
 
-**bootstrap**: An open-source CSS framework that adds a grid system of containers, rows, and columns so I can easily use traditional CSS features like flexbox within a row, for example. It also has an MIT license.
+###### gh-pages
+Used for deploying my site live to GitHub's web hosting platform, github.io.
 
-**popper.js**: Popper is required dependency for Bootstrap. It has zero dependencies of its own in turn, and helps with positioning of pop-up elements. It has an MIT license.
+###### parcel, yarn, etc.
+[Dojo Project dependencies explained here](https://github.com/hashbangash/dojo/blob/master/wiki/dependencies.md). In short, yarn is a package manager built on top of `npm` and parcel is a "zero-configuration" module bundler. These helped me build a minimalist toolchain from scratch to host this site.
 
-### Vulnerabilities
-Version 4 will address vulnerabilities, which is a major goal of my [dojo project](https://github.com/hashbangash/dojo).
+###### Sass
+Pre-compiles scss into css, which is why it's a dev dependency rather than a production dependency, because it compiles before the user ever goes to my site. Sass helps writing so I can store variables and nest css styles.
 
-## [License](LICENSE)
+# Vulnerabilities
 
-Thir project uses the General Assembly website template called the [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template). There are separate licenses for the software and the content.
+I created the [dojo project](https://github.com/hashbangash/dojo) in April 2020 so my package manager `yarn` and all my dependencies are updated to the latest versions (written May 6, 2020). This helps prevent vulnerabilites.
 
-From the General Assembly [browser template](https://git.generalassemb.ly/ga-wdi-boston/browser-template) license:
-1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-2. All software code is licensed under GNU GPLv3. For commercial use or
-alternative licensing, please contact legal@ga.co.
+My goal for the dojo project was to write a **simple, maintainable toolchain** so I can keep all my dependencies updated when patches come out. GitHub `dependabot` sends out automatic pull requests to bump versions, so hopefully next time this happens, I can successfully merge!
 
-### Software License
-My project's software has a [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt). Specifically, the license is GPL-3.0-or-later.
+# Software License
+My project's software has a [MIT License](https://jquery.org/license/). It is open-source and free (in the sense of 'freedom'). You are free to use this code for commercial use. What's cool about the MIT License is it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL), which prevents commercial use.
 
-More info about this GNU GPLv3 license: Copyright © 2007 [Free Software Foundation, Inc.](https://fsf.org/)
-
-All of my other tech dependencies have [MIT license](https://jquery.org/license/). The MIT License is compatible with my project because it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL). It is open-source and free (in the sense of 'freedom').
-
-### Content License
-The license of General Assembly's content (not software) is [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), meaning:
-
-You are free to:
-* Share — copy and redistribute the material in any medium or format
-* Adapt — remix, transform, and build upon the material
-
-Under the following terms:
-* Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-* NonCommercial — You may not use the material for commercial purposes.
-* ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+***
 
 ## More about me that's not on my portfolio:
 

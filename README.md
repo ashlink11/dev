@@ -1,6 +1,8 @@
 #### Date created: Monday, April 13, 2020
 #### Date last modified: Friday, May 8, 2020
 
+If you clone this repo, `yarn install` and `yarn start` to get started, then go to <http://localhost:1234/>. For more info on building, check out [the build process](/v4_build.md).
+
 # Version History
 
 #### Version 1 (MVP -- minimum-viable-product) completed April 21, 2020

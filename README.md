@@ -112,12 +112,14 @@ My goal for this project was to write a **simple, maintainble toolchain**.
 
 I used `yarn` for my package manager because it's [more secure than `npm`](https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/).
 
-I created the build toolchain (see [dojo project](https://github.com/hashbangash/dojo)) in April 2020 so my package manager `yarn` and all my dependencies are updated to the **latest versions** (written May 8, 2020). This helps prevent vulnerabilites.
+I created the build toolchain (see [dojo project](https://github.com/hashbangash/dojo)) in April 2020 so my package manager `yarn` and all my dependencies are updated to the **latest versions** (written May 8, 2020). This helps prevent vulnerabilities.
 
 GitHub's `dependabot` sends out automatic pull requests to bump versions so I can keep all my dependencies updated when patches come out.
 
 # Software License
-My project has a [MIT License](https://jquery.org/license/). It is open-source and free (in the sense of 'freedom'). You are free to use this code for commercial use. What's cool about the MIT License is it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL), which prevents commercial use.
+This site has a [MIT License](./license.md). I chose the MIT License so others can use this open-source code without any licensing issues.  It is free (in the sense of 'freedom'): you are free to use this code for commercial use. What's cool about the MIT License is it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL), which notably prevents commercial use.
+
+Every code library in my bill of technology also has the MIT License, which ensures proper licensing of my site.
 
 ## Commit History
 

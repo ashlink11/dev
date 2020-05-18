@@ -120,7 +120,3 @@ GitHub's `dependabot` sends out automatic pull requests to bump versions so I ca
 This site has a [MIT License](./license.md). I chose the MIT License so others can use this open-source code without any licensing issues.  It is free (in the sense of 'freedom'): you are free to use this code for commercial use. What's cool about the MIT License is it can be re-licensed under other licenses. The MIT License is compatible with many copyleft licenses, such as the GNU General Public License (GPL), which notably prevents commercial use.
 
 Every code library in my bill of technology also has the MIT License, which ensures proper licensing of my site.
-
-## Commit History
-
-The repo you are currently viewing is not the repo where all my commit history lives. 130+ commits are [here on this repo](https://github.com/hashbangash/hashbangash.github.io), which in turn has a live link of <https://hashbangash.github.io/> (notice there is no `/dev`). I used these multiple repos for experimenting with the different build processes for GitHub user sites (built off `master` branch) and GitHub Pages (built off `gh-pages` branch). I was able to build both using the parcel toolchain, but the configuration is easier with GitHub Pages rather than GitHub user sites at present.

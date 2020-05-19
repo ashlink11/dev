@@ -9932,11 +9932,12 @@ h3 {
 .nav .row .menu-item {
   padding: 0.5rem;
 }
-.nav .row .link {
+
+.link {
   color: #cf6679;
   text-decoration: underline;
 }
-.nav .row .link:hover {
+.link:hover {
   background-color: #fff;
 }
 
@@ -9973,9 +9974,6 @@ h3 {
 .about-this-site .card {
   margin: 1rem;
   padding: 1rem;
-}
-.about-this-site .card-body {
-  text-align: justify;
 }
 .about-this-site .repo-link {
   color: #cf6679;

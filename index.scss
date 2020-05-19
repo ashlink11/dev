@@ -77,15 +77,15 @@ h3 {
       padding: .5rem;
 
     }
+  }
+}
 
-    .link {
-      color: $dark-error;
-      text-decoration: underline;
+.link {
+  color: $dark-error;
+  text-decoration: underline;
 
-      &:hover {
-        background-color: $white;
-      }
-    }
+  &:hover {
+    background-color: $white;
   }
 }
 

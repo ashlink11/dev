@@ -1,5 +1,5 @@
 #### Date created: Monday, April 13, 2020
-#### Date last modified: Friday, May 15, 2020
+#### Date last modified: Friday, May 15, 2020 (security patch lodash July 23, 2020)
 
 If you clone this repo, `yarn install` and `yarn start` to get started, then go to <http://localhost:1234/>. For more info on building, check out [the build process](/v4_build.md).
 

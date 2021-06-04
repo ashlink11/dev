@@ -3,12 +3,12 @@
   <head>
     <title>Ash Grevelink's Portfolio - Software Engineer</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="software engineer programmer developer react javascript java ruby rails express node html css" name="keywords">
-    <meta content="Ash Grevelink is a full-stack software engineer passionate about JavaScript as well as the evolution of computers, the Internet, and the web. She has spent 5000+ hours programming and studying computer science. Her top skills include React, Node.js, Express, Ruby on Rails, Java, HTML and CSS. She has a strong background in SEO and Structured Data as well as working remotely." name="description">
-    <meta property="og:url"                content="https://hashbangash.github.io/dev/" />
+    <meta content="software engineer programmer developer rust react javascript java ruby rails express node html css" name="keywords">
+    <meta content="Ash Grevelink is a full-stack software engineer passionate about Rust as well as the evolution of computers, the Internet, and the web." name="description">
+    <meta property="og:url"                content="https://cruikshankss.github.io/dev/" />
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="Ash Grevelink's Portfolio - Software Engineer" />
-    <meta property="og:description"        content="Ash Grevelink is a full-stack software engineer passionate about JavaScript as well as the evolution of computers, the Internet, and the web. She has spent 5000+ hours programming and studying computer science. Her top skills include React, Node.js, Express, Ruby on Rails, Java, HTML and CSS. She has a strong background in SEO and Structured Data as well as working remotely." />
+    <meta property="og:description"        content="Ash Grevelink is a full-stack software engineer passionate about Rust as well as the evolution of computers, the Internet, and the web." />
     <meta property="og:image"              content="https://user-images.githubusercontent.com/22508682/82358963-413fb780-99d5-11ea-8669-d29775f085cc.jpg" />
 
     <link rel="shortcut icon" type="image/x-icon" href="public/lotus_favicon_3.png">
@@ -43,16 +43,30 @@
         <h2 class="heading mt-4 mb-3 col-12">PROJECTS</h2>
         <div class="row top-projects justify-content-center">
           <div class="project col-md-5 m-4 card">
+            <img class="card-img-top" src="public/rust_compiler.png" alt="Screenshot of my website, The Retro Tic Tac Toe Client. Shows a website with some user options and blank tic tac toe board. The site has a black background and bright green font color with an 8-bit style font that invokes nostalgia of old computer terminals." title="Screenshot of my website, The Retro Tic Tac Toe Client. Shows a website with some user options and blank tic tac toe board. The site has a black background and bright green font color with an 8-bit style font that invokes nostalgia of old computer terminals.">
+            <h3 class="card-header">Retro Tic Tac Toe Client</h3>
+            <div class="card-body">
+              <p class="card-text">My first SPA (single-page app) that connects  to a 3rd-party API.</p>
+              <p class="card-text">JavaScript, jQuery, AJAX, HTML, CSS, Bootstrap, npm, grunt</p>
+              <p class="card-text project-paragraph">The code repository's README demonstrates my knowledge on data flow, logical flow, dependencies, vulnerabilities, licenses and SPA philosophy. Also I gave a spontaneous in-class presentation on the visualization of what I learned. It was the first project from my General Assembly course.</p>
+              <a class="card-link btn btn-primary" href="https://cruikshankss.github.io/tic-tac-toe-client/" target="_blank">Live app</a>
+              <a class="card-link btn btn-primary" href="https://github.com/cruikshankss/tic-tac-toe-client" target="_blank">Code repo</a>
+              <a class="card-link btn btn-primary" href="https://docs.google.com/presentation/d/1VrIDJJBE6LSg3xalpIAQN0SlWDuvWrLoi6ZCe36Lr18/present?usp=sharing" target="_blank">Presentation about Data Flow</a>
+            </div>
+          </div>
+          <div class="project col-md-5 m-4 card">
             <img class="card-img-top" src="public/dojo.png" alt="Screenshot of my Dojo Project tutorial, showing use cases, limitations and table of contents." title="Screenshot of my Dojo Project tutorial, showing use cases, limitations and table of contents.">
             <h3 class="card-header">Dojo Project</h3>
             <div class="card-body">
               <p class="card-text">A 2020 open-source React web app template. Learn to build a toolchain from scratch. A personal project.</p>
               <p class="card-text">yarn, Parcel, React & GitHub Pages</p>
               <p class="card-text project-paragraph">I wrote a step-by-step tutorial so others can follow. Helped to practice my technical writing as well as building a simple, maintable toolchain. Also includes two Docker experiments and a react-router-dom experiment.</p>
-              <a class="card-link btn btn-primary" href="https://hashbangash.github.io/dojo/" target="_blank">Live app</a>
-              <a class="card-link btn btn-primary" href="https://github.com/hashbangash/dojo" target="_blank">Tutorial</a>
+              <a class="card-link btn btn-primary" href="https://cruikshankss.github.io/dojo/" target="_blank">Live app</a>
+              <a class="card-link btn btn-primary" href="https://github.com/cruikshankss/dojo" target="_blank">Tutorial</a>
             </div>
           </div>
+        </div>
+        <div class="row middle-projects justify-content-center">
           <div class="project col-md-5 m-4 card">
             <img class="card-img-top" src="public/simple_fundamentals.png" alt="Screenshot of my website, The Simple Fundamentals of Programming. Shows a website with some flashcards with definitions of function, algorithm, data, and logarithm. The site is built in dark mode with OpenDyslexia font." title="Screenshot of my website, The Simple Fundamentals of Programming. Shows a website with some flashcards with definitions of function, algorithm, data, and logarithm. The site is built in dark mode with OpenDyslexia font.">
             <h3 class="card-header">The Simple Fundamentals of Programming</h3>
@@ -60,12 +74,10 @@
               <p class="card-text">Flashcard app with simple definitions of programming terms.</p>
               <p class="card-text">JavaScript, React, Ruby on Rails, PostgreSQL</p>
               <p class="card-text project-paragraph">During this capstone project for my General Assembly course, I read deeply into React documentation. I studied the history of JavaScript, the different imperative and declarative frameworks over the years, and what really makes React modern. Additionally, I incorporated dozens of lessons I learned about accessibility.</p>
-              <a class="card-link btn btn-primary" href="https://hashbangash.github.io/simple-fundamentals-client/"target="_blank">Live app</a>
-              <a class="card-link btn btn-primary" href="https://github.com/hashbangash/simple-fundamentals-client" target="_blank">Code repo</a>
+              <a class="card-link btn btn-primary" href="https://cruikshankss.github.io/simple-fundamentals-client/"target="_blank">Live app</a>
+              <a class="card-link btn btn-primary" href="https://github.com/cruikshankss/simple-fundamentals-client" target="_blank">Code repo</a>
             </div>
           </div>
-        </div>
-        <div class="row middle-projects justify-content-center">
           <div class="project col-md-5 m-4 card">
             <img class="card-img-top" src="public/pollaris.png" alt="Screenshot of my website, Pollaris Surveys. Shows a website with some surveys and menu options. The site is built in dark mode and has a sailboat sailing into a supernova for its hero image." title="Screenshot of my website, Pollaris Surveys. Shows a website with some surveys and menu options. The site is built in dark mode and has a sailboat sailing into a supernova for its hero image.">
             <h3 class="card-header">Pollaris Surveys</h3>
@@ -78,6 +90,8 @@
               <a class="card-link btn btn-primary" href="https://github.com/wat-the-duck/pollaris-surveys-client" target="_blank">Code repo</a>
             </div>
           </div>
+        </div>
+        <div class="row bottom-projects justify-content-center">
           <div class="project col-md-5 m-4 card">
             <img class="card-img-top" src="public/forgiveness.png" alt="Screenshot of my website, The Forgiveness Project(ion) Screenshot. Shows a website with posts about forgiveness. The site has a photo of the Himalayan Mountain range for its hero image and has a title font that invokes old books and mythology." title="Screenshot of my website, The Forgiveness Project(ion) Screenshot. Shows a website with posts about forgiveness. The site has a photo of the Himalayan Mountain range for its hero image and has a title font that invokes old books and mythology.">
             <h3 class="card-header">The Forgiveness Project(ion)</h3>
@@ -85,22 +99,18 @@
               <p class="card-text">Make a post about something you want to forgive and come into the now!</p>
               <p class="card-text">JavaScript, Bootstrap, Handlebars, Ruby on Rails, PostgreSQL</p>
               <p class="card-text project-paragraph">This was my first solo full-stack app. I did the styling from scratch. Coming from being a computer science student, it was exhilirating to work on the web and practice UI design.</p>
-              <a class="card-link btn btn-primary" href="https://hashbangash.github.io/forgiveness-client/" target="_blank">Live app</a>
-              <a class="card-link btn btn-primary" href="https://github.com/hashbangash/forgiveness-client" target="_blank">Code repo</a>
+              <a class="card-link btn btn-primary" href="https://cruikshankss.github.io/forgiveness-client/" target="_blank">Live app</a>
+              <a class="card-link btn btn-primary" href="https://github.com/cruikshankss/forgiveness-client" target="_blank">Code repo</a>
             </div>
           </div>
-        </div>
-        <div class="row bottom-projects justify-content-center">
           <div class="project col-md-5 m-4 card">
-            <img class="card-img-top" src="public/tictactoe.png" alt="Screenshot of my website, The Retro Tic Tac Toe Client. Shows a website with some user options and blank tic tac toe board. The site has a black background and bright green font color with an 8-bit style font that invokes nostalgia of old computer terminals." title="Screenshot of my website, The Retro Tic Tac Toe Client. Shows a website with some user options and blank tic tac toe board. The site has a black background and bright green font color with an 8-bit style font that invokes nostalgia of old computer terminals.">
-            <h3 class="card-header">Retro Tic Tac Toe Client</h3>
+            <img class="card-img-top" src="public/tictactoe.png" alt="Screenshot of my GitHub repo for the Rust compiler. Talks about the spec. Read all the text on the GitHub repo. :)">
+            <h3 class="card-header">Rust Compiler Project</h3>
             <div class="card-body">
-              <p class="card-text">My first SPA (single-page app) that connects  to a 3rd-party API.</p>
-              <p class="card-text">JavaScript, jQuery, AJAX, HTML, CSS, Bootstrap, npm, grunt</p>
-              <p class="card-text project-paragraph">The code repository's README demonstrates my knowledge on data flow, logical flow, dependencies, vulnerabilities, licenses and SPA philosophy. Also I gave a spontaneous in-class presentation on the visualization of what I learned. It was the first project from my General Assembly course.</p>
-              <a class="card-link btn btn-primary" href="https://hashbangash.github.io/tic-tac-toe-client/" target="_blank">Live app</a>
-              <a class="card-link btn btn-primary" href="https://github.com/hashbangash/tic-tac-toe-client" target="_blank">Code repo</a>
-              <a class="card-link btn btn-primary" href="https://docs.google.com/presentation/d/1VrIDJJBE6LSg3xalpIAQN0SlWDuvWrLoi6ZCe36Lr18/present?usp=sharing" target="_blank">Presentation about Data Flow</a>
+              <p class="card-text">Incrementally building a Rust compiler in Rust.</p>
+              <p class="card-text">Compiling to x86_64 assembly language (64-bit architecture).</p>
+              <p class="card-text project-paragraph">I'm working on a very simple compiler, which just parses, verifies valid tokens, and translates that to another language using a dictionary.</p>
+              <a class="card-link btn btn-primary" href="https://github.com/cruikshankss/compiler" target="_blank">Code repo</a>
             </div>
           </div>
         </div>
@@ -333,7 +343,7 @@
           <div class="card-body">
             <p>Welcome to my portfolio. I am proud of the accessibility of this site, guided by the Mozilla Developer Accessibility docs as well as W3C's Web Content Accessibility Guidelines (WCAG).</p>
             <p>I have written this page with screen-readers in mind. Screen readers provide accessibility to those with visual impairment. Scroll over some of the images to view the "alt text" that's behind the scenes.</p>
-            <p>Websites like this, designed in alignment with principles of "dark mode" and "flat UI" design are accessible because proper contrast levels reduce eye-strain. My color palette features low-saturation and harmonious colors of many variants and opacities. The contrast of text and background is never below 4.5:1, per WCAG. For more info, check out <a class="repo-link" href="https://github.com/hashbangash/dev#dark-theme-design" target="_blank">my color palette</a>.</p>
+            <p>Websites like this, designed in alignment with principles of "dark mode" and "flat UI" design are accessible because proper contrast levels reduce eye-strain. My color palette features low-saturation and harmonious colors of many variants and opacities. The contrast of text and background is never below 4.5:1, per WCAG. For more info, check out <a class="repo-link" href="https://github.com/cruikshankss/dev#dark-theme-design" target="_blank">my color palette</a>.</p>
             <p>I carefully considered the accessibility of the fonts, type of styling, and number of elements per section of the page. Minimalism provides accessibility to those with cognitive differences.</p>
           </div>
         </div>
@@ -341,7 +351,7 @@
           <h3 class="card-header">Tools I used to build this site</h3>
           <div class="card-body">
             <p>This site is accessible, mobile-first and responsive, built from scratch. It's the 5th website I've built so far in 2020 and represents the synthesis of my front-end skills from the General Assembly Software Engineering Immersive course and self-study.</p>
-            <p>I chose the MIT License for this site so others can use this open-source code without any licensing issues.  It is free (in the sense of 'freedom'): you are free to use this code for commercial use. More information on my tech and licensing is found in <a class="repo-link" href="https://github.com/hashbangash/dev" target="_blank">my portfolio's code repository</a>.</p>
+            <p>I chose the MIT License for this site so others can use this open-source code without any licensing issues.  It is free (in the sense of 'freedom'): you are free to use this code for commercial use. More information on my tech and licensing is found in <a class="repo-link" href="https://github.com/cruikshankss/dev" target="_blank">my portfolio's code repository</a>.</p>
             <p>I wrote semantic HTML 5 from scratch keeping in mind best-practices, clean-code and accessibility at every line.</p>
             <p>My CSS is written in Sass, which is highly readable and helps with keeping things DRY. I tried to use as few CSS styles as possible and used descriptive class names.</p>
             <p>I used as few Bootstrap classes, containers, and rows as possible to simplify my site's grid and styling system.</p>
@@ -354,7 +364,7 @@
           <h3 class="card-header">Contact Info:</h3>
           <ul class="card-body">
             <a class="card-link btn btn-primary" href="https://www.linkedin.com/in/ash-grevelink/" target="_blank">LinkedIn</a>
-            <a class="card-link btn btn-primary" href="https://github.com/hashbangash" target="_blank">GitHub</a>
+            <a class="card-link btn btn-primary" href="https://github.com/cruikshankss" target="_blank">GitHub</a>
           </ul>
         </div>
       </section>
